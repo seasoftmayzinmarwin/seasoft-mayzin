@@ -17,12 +17,6 @@
           <li><a href="#">General</a></li>
           <li><a href="#">Buttons</a></li>
           <li><a href="#">Tabs & Accordions</a></li>
-          <li><a href="#">Typography</a></li>
-          <li><a href="#">FontAwesome</a></li>
-          <li><a href="#">Slider</a></li>
-          <li><a href="#">Panels</a></li>
-          <li><a href="#">Widgets</a></li>
-          <li><a href="#">Bootstrap Model</a></li>
         </ul>
         <li data-toggle="collapse" data-target="#service" class="collapsed">
           <a href="#"><i class="fa fa-globe fa-lg"></i> Services <span class="arrow"></span></a>
