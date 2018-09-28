@@ -1,7 +1,6 @@
 <?php include('layout/header.php') ?>
 
 	<div class="body">
-
 		<div class="nav-side-menu">
     <div class="brand">Brand Logo</div>
     <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
