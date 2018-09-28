@@ -13,7 +13,7 @@
           <a href="#"><i class="fa fa-gift fa-lg"></i> UI Elements <span class="arrow"></span></a>
         </li>
         <ul class="sub-menu collapse" id="products">
-          <li class="active"><a href="#">CSS3 Animation</a></li>
+          <li class="active"><a href="datatable.php">Data Table</a></li>
           <li><a href="#">General</a></li>
           <li><a href="#">Buttons</a></li>
           <li><a href="#">Tabs & Accordions</a></li>
