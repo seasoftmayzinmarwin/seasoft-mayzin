@@ -73,7 +73,7 @@ body {
 .nav-side-menu li .sub-menu li {
   background-color: #181c20;
   border: none;
-  line-height: 28px;
+  line-height: 40px;
   border-bottom: 1px solid #23282e;
   margin-left: 0px;
 }
@@ -105,7 +105,7 @@ body {
   padding-right: 20px;
 }
 .nav-side-menu li:hover {
-  border-left: 3px solid #d19b3d;
+  border-left: 3px solid #28a745;
   background-color: #4f5b69;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
@@ -144,7 +144,6 @@ body {
   .form-block .btn-left{
     padding-left: 13% !important;
 }
-
 }
 @media (min-width: 767px) {
   .nav-side-menu .menu-list .menu-content {
