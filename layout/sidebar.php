@@ -35,7 +35,7 @@
           <li>New New 3</li>
         </ul>
         <li>
-          <a href="#">
+          <a href="profile.php">
             <i class="fa fa-user fa-lg"></i> Profile
           </a>
         </li>
