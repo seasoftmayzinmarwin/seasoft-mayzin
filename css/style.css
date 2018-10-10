@@ -17,10 +17,10 @@ body {
   font-weight: 200;
   background-color: #2e353d;
   position: fixed;
-  top: 0px;
-  width: 260px;
+  width: 200px;
   height: 100%;
   color: #e1ffff;
+  /*display: none;*/
 }
 .nav-side-menu .brand {
   background-color: #23282e;
@@ -277,7 +277,7 @@ iframe
 }
 /*----28.9.2018(end)---*/
 .content {
-  margin-left: 260px;
+  margin-left: 200px;
   padding: 0 20px;
   padding-top: 20px;
 }
@@ -583,6 +583,10 @@ iframe
 }
 
 .h-text-dec-none {
+  text-decoration: none !important;
+}
+
+.h-link-text-dec-none a {
   text-decoration: none !important;
 }
 
@@ -949,4 +953,69 @@ iframe
   .application .h-no-p-l {
     padding: 0;
   }
+}
+
+@media (max-width: 768px) {
+  .h-mobile {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .h-mobile {
+    display: none;
+  }
+}
+
+
+
+.h-nav {
+  display: flex;
+  background: red;
+  line-height: 50px;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+.h-nav-right {
+  display: flex;
+  margin-left: auto
+}
+
+.h-nav-right li {
+  margin-right: 15px;
+}
+
+.h-nav-left {
+  display: flex;
+  margin-right: auto
+}
+
+.h-nav-left li {
+  margin-left: 15px;
+}
+
+.h-nav-itmes ul {
+  display: flex;
+}
+
+.h-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.h-link-color-white a {
+  color: white !important;
+}
+
+.h-nav-brand {
+  padding: 0 8px;
+}
+
+.body {
+  margin-top: 50px;
 }

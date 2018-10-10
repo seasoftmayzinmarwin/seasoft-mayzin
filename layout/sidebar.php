@@ -6,42 +6,62 @@
       <ul id="menu-content" class="menu-content collapse out">
         <li>
           <a href="#">
-            <i class="fa fa-dashboard fa-lg"></i> Dashboard
-          </a>
-        </li>
-        <li  data-toggle="collapse" data-target="#products" class="collapsed active">
-          <a href="#"><i class="fa fa-gift fa-lg"></i> UI Elements <span class="arrow"></span></a>
-        </li>
-        <ul class="sub-menu collapse" id="products">
-          <li class="active"><a href="datatable.php">Data Table</a></li>
-          <li><a href="#">General</a></li>
-          <li><a href="#">Buttons</a></li>
-          <li><a href="#">Tabs & Accordions</a></li>
-        </ul>
-        <li data-toggle="collapse" data-target="#service" class="collapsed">
-          <a href="#"><i class="fa fa-globe fa-lg"></i> Services <span class="arrow"></span></a>
-        </li>  
-        <ul class="sub-menu collapse" id="service">
-          <li>New Service 1</li>
-          <li>New Service 2</li>
-          <li>New Service 3</li>
-        </ul>
-        <li data-toggle="collapse" data-target="#new" class="collapsed">
-          <a href="#"><i class="fa fa-car fa-lg"></i> New <span class="arrow"></span></a>
-        </li>
-        <ul class="sub-menu collapse" id="new">
-          <li>New New 1</li>
-          <li>New New 2</li>
-          <li>New New 3</li>
-        </ul>
-        <li>
-          <a href="profile.php">
-            <i class="fa fa-user fa-lg"></i> Profile
+            <i class="fa fa-dashboard fa-lg"></i> Home
           </a>
         </li>
         <li>
-          <a href="user.php">
-            <i class="fa fa-users fa-lg"></i> Users
+          <a href="#">
+            <i class="fa fa-dashboard fa-lg"></i> Facilities
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-dashboard fa-lg"></i> Satff Voices
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-dashboard fa-lg"></i> Images
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-dashboard fa-lg"></i> Serach
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-dashboard fa-lg"></i> Selection
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-dashboard fa-lg"></i> Message
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-dashboard fa-lg"></i> Analysis
+          </a>
+        </li>
+        <li class="h-mobile h-tablet">
+          <a href="#">
+            <i class="fa fa-dashboard fa-lg"></i> Change Mode
+          </a>
+        </li>
+        <li class="h-mobile h-tablet">
+          <a href="#">
+            <i class="fa fa-dashboard fa-lg"></i> Help
+          </a>
+        </li>
+        <li class="h-mobile h-tablet">
+          <a href="#">
+            <i class="fa fa-dashboard fa-lg"></i> Setting
+          </a>
+        </li>
+        <li class="h-mobile h-tablet">
+          <a href="#">
+            <i class="fa fa-dashboard fa-lg"></i> Sign Out
           </a>
         </li>
       </ul>

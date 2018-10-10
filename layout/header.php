@@ -9,5 +9,26 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
-
-
+	<nav class="h-nav h-link-color-white">
+		<div class="h-nav-left h-link-text-dec-none">
+			<div class="h-nav-brand">
+				<a href="#">Houkan</a>
+			</div>
+			<div class="h-nav-itmes">
+				<ul>
+					<li><a href="#">Change Mode</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="h-nav-right">
+			<div class="h-nav-option">
+				<div class="h-nav-itmes">
+					<ul>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Setting</a></li>
+						<li><a href="#">Sign Out</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
