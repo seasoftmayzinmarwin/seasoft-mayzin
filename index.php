@@ -87,7 +87,7 @@
     <div class="space"></div>
 
     <div class="row h-no-margin application">
-      <div class="col-md-8 h-no-p-l">
+      <div class="col-md-8 h-no-p-l h-mobile-no-p-r">
         <div class="card h-card d-flex">
           <div class="row h-no-margin">
             <div class="p-2 flex-fill h-border-right">
