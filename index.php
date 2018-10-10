@@ -11,15 +11,19 @@
     <div class="card h-card">
       <div class="card-header h-border-buttom">
         <div class="d-flex justify-content-between">
-          <div class="">
-            <span><strong>This is card header</strong></span>
-            <span>Additional Text</span>
+          <div class="col-md-4">
+            <span><strong>おすすめの求職者</strong></span>
           </div>
-          <div class="">
-            <button class="btn h-button-sm">Button</button>
+          <div class="col-md-7">
+            <span class="text-center">気になる求職者にスカウトを送って、応募を促しましょう</span>
           </div>
+            
+            <div class="col-md-1">
+              <button class="btn h-button-sm">Button</button>
+            </div>
+          
         </div>
-      </div>
+      </div><!-- .card-header -->
       <div class="card-body h-no-padding">
         <div class="d-flex h-flex recommended-candidates">
           <div class="p-2 flex-fill">
@@ -78,7 +82,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div><!-- .card-head -->
 
     <div class="space"></div>
 
