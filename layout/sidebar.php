@@ -5,63 +5,63 @@
     <div class="menu-list">
       <ul id="menu-content" class="menu-content collapse out">
         <li>
-          <a href="#">
-            <i class="fa fa-dashboard fa-lg"></i> Home
+          <a href="index.php">
+            <i class="fa fa-tachometer fa-lg"></i> Home
           </a>
         </li>
         <li>
           <a href="#">
-            <i class="fa fa-dashboard fa-lg"></i> Facilities
+            <i class="fa fa-tachometer fa-lg"></i> Facilities
           </a>
         </li>
         <li>
           <a href="#">
-            <i class="fa fa-dashboard fa-lg"></i> Satff Voices
+            <i class="fa fa-tachometer fa-lg"></i> Satff Voices
           </a>
         </li>
         <li>
           <a href="#">
-            <i class="fa fa-dashboard fa-lg"></i> Images
+            <i class="fa fa-tachometer fa-lg"></i> Images
           </a>
         </li>
         <li>
           <a href="#">
-            <i class="fa fa-dashboard fa-lg"></i> Serach
+            <i class="fa fa-tachometer fa-lg"></i> Serach
           </a>
         </li>
         <li>
           <a href="#">
-            <i class="fa fa-dashboard fa-lg"></i> Selection
+            <i class="fa fa-tachometer fa-lg"></i> Selection
           </a>
         </li>
         <li>
           <a href="#">
-            <i class="fa fa-dashboard fa-lg"></i> Message
+            <i class="fa fa-tachometer fa-lg"></i> Message
           </a>
         </li>
         <li>
           <a href="#">
-            <i class="fa fa-dashboard fa-lg"></i> Analysis
+            <i class="fa fa-tachometer fa-lg"></i> Analysis
           </a>
         </li>
         <li class="h-mobile h-tablet">
           <a href="#">
-            <i class="fa fa-dashboard fa-lg"></i> Change Mode
+            <i class="fa fa-tachometer fa-lg"></i> Change Mode
           </a>
         </li>
         <li class="h-mobile h-tablet">
           <a href="#">
-            <i class="fa fa-dashboard fa-lg"></i> Help
+            <i class="fa fa-tachometer fa-lg"></i> Help
           </a>
         </li>
         <li class="h-mobile h-tablet">
           <a href="#">
-            <i class="fa fa-dashboard fa-lg"></i> Setting
+            <i class="fa fa-tachometer fa-lg"></i> Setting
           </a>
         </li>
         <li class="h-mobile h-tablet">
           <a href="#">
-            <i class="fa fa-dashboard fa-lg"></i> Sign Out
+            <i class="fa fa-tachometer fa-lg"></i> Sign Out
           </a>
         </li>
       </ul>
