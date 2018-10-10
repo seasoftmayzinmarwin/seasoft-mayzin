@@ -26,59 +26,65 @@
       </div><!-- .card-header -->
       <div class="card-body h-no-padding">
         <div class="d-flex h-flex recommended-candidates">
-          <div class="p-2 flex-fill">
-            <div class="text-center">
-              <div class="">
-                <span>HEllo/Hi</span>
+          <div class="p-2 flex-fill e-flex-fill">
+              <a class="nurse-block nurse-small-short text-center space-pd-20" href="">
+              <div class="card-font-black">看護師/准看護師</div>
+              <div class="space-mt-10">
+                <span class="nurse-label space-mt-auto  label-semicircle">
+                  <div class="nurse-group-item">
+                    <div class="nurse-group-item-box">
+                      <span class="card-font-md">57歳</span>
+                    </div>
+                    <div class="nurse-group-item-box">
+                      <span class="">女性</span>
+                    </div>
+                  </div>
+                </span>
               </div>
-              <div class="">
-                <div class="btn-group h-button-pill">
-                  <a href="#" class="h-link">Link!</a>
-                  <a href="#" class="h-link">Link!</a>
-                </div>
-              </div>
-              <div class="">
-                <span>Text</span><br>
-                <span>Text</span><br>
-                <span>Text</span>
-              </div>
-            </div>
+
+              <div class="card-font-gray">神奈川県横浜市戸塚区</div>
+              <div class="card-font-gray">会員番号 : 334974</div>
+              </a>
           </div>
-          <div class="p-2 flex-fill">
-            <div class="text-center">
-              <div class="">
-                <span>HEllo/Hi</span>
+          <div class="p-2 flex-fill e-flex-fill">
+            <a class="nurse-block nurse-small-short text-center space-pd-20" href="">
+              <div class="card-font-black">看護師/准看護師 (7年未満) 助産師 (10年以上)</div>
+              <div class="space-mt-10">
+                <span class="nurse-label space-mt-auto  label-semicircle">
+                  <div class="nurse-group-item">
+                    <div class="nurse-group-item-box">
+                      <span class="card-font-md">49歳</span>
+                    </div>
+                    <div class="nurse-group-item-box">
+                      <span class="">女性</span>
+                    </div>
+                  </div>
+                </span>
               </div>
-              <div class="">
-                <div class="btn-group h-button-pill">
-                  <a href="#" class="h-link">Link!</a>
-                  <a href="#" class="h-link">Link!</a>
-                </div>
-              </div>
-              <div class="">
-                <span>Text</span><br>
-                <span>Text</span><br>
-                <span>Text</span>
-              </div>
-            </div>
+
+              <div class="card-font-gray">神奈川県横浜市戸塚区</div>
+              <div class="card-font-gray">会員番号 : 334974</div>
+              </a>
           </div>
-          <div class="p-2 flex-fill">
-            <div class="text-center">
-              <div class="">
-                <span>HEllo/Hi</span>
+          <div class="p-2 flex-fill e-flex-fill">
+            <a class="nurse-block nurse-small-short text-center space-pd-20" href="">
+              <div class="card-font-black">看護師/准看護師 (5年未満)</div>
+              <div class="space-mt-10">
+                <span class="nurse-label space-mt-auto  label-semicircle">
+                  <div class="nurse-group-item">
+                    <div class="nurse-group-item-box">
+                      <span class="card-font-md">40歳</span>
+                    </div>
+                    <div class="nurse-group-item-box">
+                      <span class="">女性</span>
+                    </div>
+                  </div>
+                </span>
               </div>
-              <div class="">
-                <div class="btn-group h-button-pill">
-                  <a href="#" class="h-link">Link!</a>
-                  <a href="#" class="h-link">Link!</a>
-                </div>
-              </div>
-              <div class="">
-                <span>Text</span><br>
-                <span>Text</span><br>
-                <span>Text</span>
-              </div>
-            </div>
+
+              <div class="card-font-gray">神奈川県横浜市戸塚区</div>
+              <div class="card-font-gray">会員番号 : 334974</div>
+              </a>
           </div>
         </div>
       </div>
