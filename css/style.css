@@ -928,7 +928,7 @@ iframe
 }
 
 .h-border-right {
-  border-right: 1px solid #adadad;
+  border-right: 1px solid #eceff1;
 }
 
 .h-no-p-l {
@@ -1041,15 +1041,17 @@ iframe
   margin-top: 50px;
 }
 /*-----------10/10/2018-----------*/
-.nurse-block {
+.card-block {
     display: block !important;
     text-decoration: none !important;
+    color:#37474f;
 }
-.nurse-block:hover{
+.card-block:hover{
     background-color: #f8fbff;
     text-decoration: none;
+    color:#37474f;
 }
-.nurse-label{
+.card-label{
     background-color: #eceff1;
     color: #37474f;
     display: table;
@@ -1069,17 +1071,17 @@ iframe
     font-size: 14px!important;
     line-height: 1.42857!important;
 }
-.nurse-group-item {
+.card-group-item {
     display: table;
 }
-.nurse-group-item-box {
+.card-group-item-box {
     display: table-cell;
     vertical-align: middle;
 }
-.nurse-group-item-box:first-child {
+.card-group-item-box:first-child {
     padding-right: 10px;
 }
-.nurse-group-item-box:last-child  {
+.card-group-item-box:last-child  {
     border-left: 1px solid #b0bec5;
     padding-left: 10px;
 }
@@ -1090,17 +1092,36 @@ iframe
     margin: 0 auto !important;
 }
 .space-pd-20{
-  padding: 20px !important;
+  padding: 20px;
 }
-.card-font-gray{
-   color: #879195!important;
+.card-font-grey{
+   color: #879195;
+}
+.grey-pd-sm{
+  padding-left:5px;
 }
 .card-font-black{
   color: #37474f;
 }
-.card-body .e-flex-fill{
+.card-fw-bold{
+  font-weight: bold;
+}
+.card-fw-md-bold{
+  font-family: Helvetica,Arial;
+  font-size: 30px;
+  line-height: 1.06667;
+  font-weight: bold;
+}
+.card-font-ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 155px;
+    margin:0 auto;
+}
+.e-flex-fill{
   padding:0 !important;
 }
-.nurse-small-short {
+.card-small-short {
     line-height: 2.5 !important;
 }
