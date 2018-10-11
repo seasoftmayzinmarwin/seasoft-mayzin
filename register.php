@@ -48,112 +48,117 @@
 										<div class="register-title">
 											<p>お申し込みフォーム</p>
 										</div>
-										<form method="POST" >
-											<ul class="definition-table">
-												<li class="definition-table-item">
-													<dl class="dl-definition-table">
-														<dt class="definition-table-head">
-															<span class="definition-head-item">
-																<span class="definition-label-red">必須
-																</span>
-															</span>
-															<span class="definition-head-item definition-head-item-left">法人名・貴社名
-															</span>
-														</dt>
-														<dd class="definition-table-body">
-															<input type="text" value="" name="name" class="definition-text-field" placeholder="株式会社メドレー" maxlength="100">
-														</dd>
-													</dl>
-												</li>
-												<li class="definition-table-item">
-													<dl class="dl-definition-table">
-														<dt class="definition-table-head">
-															<span class="definition-head-item">
-															<span class="definition-head-item ">法人名・貴社名(フリガナ)
-															</span>
-														</dt>
-														<dd class="definition-table-body">
-															<input type="text" value="" name="name" class="definition-text-field" placeholder="株式会社メドレー" maxlength="100">
-														</dd>
-													</dl>
-												</li>
-												<li class="definition-table-item">
-													<dl class="dl-definition-table">
-														<dt class="definition-table-head">
-															<span class="definition-head-item">
-																<span class="definition-label-red">必須
-																</span>
-															</span>
-															<span class="definition-head-item definition-head-item-left">担当者氏名
-															</span>
-														</dt>
-														<dd class="definition-table-body">
-															<div class="definition-input-left">
-															<input type="text" value="" name="charge_family_name" class="definition-text-field" placeholder="山田" maxlength="20">
-														</div>
-														<div class="definition-input-right">
-															<input type="text" value="" name="charge_first_name" class="definition-text-field" placeholder="太郎" maxlength="20">
-														</div>
-														</dd>
-													</dl>
-												</li>
-												<li class="definition-table-item">
-													<dl class="dl-definition-table">
-														<dt class="definition-table-head">
-															<span class="definition-head-item">
-															<span class="definition-head-item ">担当者氏名(フリガナ)
-															</span>
-														</dt>
-														<dd class="definition-table-body">
-															<div class="definition-input-left">
-															<input type="text" value="" name="charge_family_name_kana" class="definition-text-field" placeholder="ヤマダ" maxlength="20">
-														</div>
-														<div class="definition-input-right">
-															<input type="text" value="" name="charge_family_name_kana" class="definition-text-field" placeholder="タロウ" maxlength="20">
-														</div>
-														</dd>
-													</dl>
-												</li>
-												<li class="definition-table-item">
-													<dl class="dl-definition-table">
-														<dt class="definition-table-head">
-															<span class="definition-head-item">
-																<span class="definition-label-red">必須
-																</span>
-															</span>
-															<span class="definition-head-item definition-head-item-left">電話番号
-															</span>
-														</dt>
-														<dd class="definition-table-body">
-															<input type="text" value="" name="name" class="definition-text-field" placeholder="0123456789" maxlength="100">
-														</dd>
-													</dl>
-												</li>
-												<li class="definition-table-item">
-													<dl class="dl-definition-table card-input-br-btm">
-														<dt class="definition-table-head">
-															<span class="definition-head-item">
-																<span class="definition-label-red">必須
-																</span>
-															</span>
-															<span class="definition-head-item definition-head-item-left">メールアドレス
-															</span>
-														</dt>
-														<dd class="definition-table-body">
-															<input type="text" value="" name="name" class="definition-text-field" placeholder="example@job-medley.com" maxlength="100">
-														</dd>
-													</dl>
-												</li>
+				<form method="POST" >
+					<ul class="definition-table">
+						<li class="definition-table-item">
+							<dl class="dl-definition-table">
+								<dt class="definition-table-head">
+									<span class="definition-head-item">
+										<span class="definition-label-red">必須
+										</span>
+									</span>
+									<span class="definition-head-item definition-head-item-left">法人名・貴社名
+									</span>
+								</dt>
+								<dd class="definition-table-body">
+									<input type="text" value="" name="name" class="definition-text-field definition-txt-error" placeholder="株式会社メドレー" maxlength="100">
+									<span class="definition-txt-alert">法人名を入力してください</span>
+								</dd>
+							</dl>
+						</li>
+						<li class="definition-table-item">
+							<dl class="dl-definition-table">
+								<dt class="definition-table-head">
+									<span class="definition-head-item">
+									<span class="definition-head-item ">法人名・貴社名(フリガナ)
+									</span>
+								</dt>
+								<dd class="definition-table-body">
+									<input type="text" value="" name="name" class="definition-text-field" placeholder="株式会社メドレー" maxlength="100">
+								</dd>
+							</dl>
+						</li>
+						<li class="definition-table-item">
+							<dl class="dl-definition-table">
+								<dt class="definition-table-head">
+									<span class="definition-head-item">
+										<span class="definition-label-red">必須
+										</span>
+									</span>
+									<span class="definition-head-item definition-head-item-left">担当者氏名
+									</span>
+								</dt>
+								<dd class="definition-table-body">
+									<div class="definition-input-left">
+									<input type="text" value="" name="charge_family_name" class="definition-text-field definition-txt-error" placeholder="山田" maxlength="20">
+									
+								</div>
+								<div class="definition-input-right">
+									<input type="text" value="" name="charge_first_name" class="definition-text-field" placeholder="太郎" maxlength="20">
+								</div>
+								<span class="definition-txt-alert">担当者氏名(姓)を入力してください</span>
+								</dd>
+							</dl>
+						</li>
+						<li class="definition-table-item">
+							<dl class="dl-definition-table">
+								<dt class="definition-table-head">
+									<span class="definition-head-item">
+									<span class="definition-head-item ">担当者氏名(フリガナ)
+									</span>
+								</dt>
+								<dd class="definition-table-body">
+									<div class="definition-input-left">
+									<input type="text" value="" name="charge_family_name_kana" class="definition-text-field" placeholder="ヤマダ" maxlength="20">
+								</div>
+								<div class="definition-input-right">
+									<input type="text" value="" name="charge_family_name_kana" class="definition-text-field" placeholder="タロウ" maxlength="20">
+								</div>
+								</dd>
+							</dl>
+						</li>
+						<li class="definition-table-item">
+							<dl class="dl-definition-table">
+								<dt class="definition-table-head">
+									<span class="definition-head-item">
+										<span class="definition-label-red">必須
+										</span>
+									</span>
+									<span class="definition-head-item definition-head-item-left">電話番号
+									</span>
+								</dt>
+								<dd class="definition-table-body">
+									<input type="text" value="" name="name" class="definition-text-field definition-txt-error" placeholder="0123456789" maxlength="100">
+									<span class="definition-txt-alert">電話番号を入力してください</span>
+								</dd>
+							</dl>
+						</li>
+						<li class="definition-table-item">
+							<dl class="dl-definition-table card-input-br-btm">
+								<dt class="definition-table-head">
+									<span class="definition-head-item">
+										<span class="definition-label-red">必須
+										</span>
+									</span>
+									<span class="definition-head-item definition-head-item-left">メールアドレス
+									</span>
+								</dt>
+								<dd class="definition-table-body">
+									<input type="text" value="" name="name" class="definition-text-field definition-txt-error" placeholder="example@job-medley.com" maxlength="100">
+									<span class="definition-txt-alert">メールアドレスを入力してください</span>
+								</dd>
+							</dl>
+						</li>
 
-											</ul>
-											<div class="space"></div>
-											<div class="register-btn-group text-center">
-												<button type="submit" class="register-btn space-pd-20">利用規約に同意して申し込む</button>
-												<div class="space"></div>
-												<a class="" target="blank" href="/rule">利用規約はこちら<i class="fa fa-clipboard" aria-hidden="true"></i>
-												</a>
-											</div><!-- .register-btn -->
-										</form>
+					</ul>
+					<div class="space"></div>
+					<div class="register-btn-group text-center">
+						<button type="submit" class="register-btn space-pd-20">利用規約に同意して申し込む</button>
+						<div class="space"></div>
+						<a class="" target="blank" href="/rule">利用規約はこちら<i class="fa fa-clipboard" aria-hidden="true"></i>
+						</a>
+					</div><!-- .register-btn -->
+				</form>
 										<div class="space"></div>
 
 

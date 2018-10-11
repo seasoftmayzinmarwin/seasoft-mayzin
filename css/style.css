@@ -1430,6 +1430,18 @@ iframe
   display: inline-block;
   width:45%;
 }
+.definition-txt-error, .definition-txt-error:focus {
+    background-color: #ffebec;
+    border: 1px solid #e52538;
+}
+.definition-txt-alert{
+  display: block;
+  padding-top:5px;
+  font-weight: bold;
+  color: #e52538;
+  font-size: 14px;
+  margin: 0;
+  }
 .card-input-br-btm{
   border-bottom: 1px solid #eceff1;
 }
@@ -1786,6 +1798,7 @@ iframe
 .pannel-right-link:hover{
   color:#FF004E;
 }
+
 @media screen and (min-width: 1001px){
 .facilities-sidebar {
     width: 270px;
