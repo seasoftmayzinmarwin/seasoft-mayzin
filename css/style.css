@@ -1092,7 +1092,7 @@ iframe
     margin: 0 auto !important;
 }
 .space-pd-20{
-  padding: 20px;
+  padding: 20px !important;;
 }
 .card-font-grey{
    color: #879195;
@@ -1316,6 +1316,7 @@ iframe
   background-color: #ffebec !important;
 }
 .card-flowchart-content{
+    width: 214px;
     background-color: #eceff1;
     display: inline-block;
     height: 156px;
@@ -1323,7 +1324,7 @@ iframe
     padding-top: 30px;
     text-align: left;
     vertical-align: top;
-    width: 214px; 
+    
 }
 .card-flowchart-head {
     font-size: 22px;
@@ -1337,8 +1338,10 @@ iframe
     line-height: 1.42857;
 }
 .card-flowchart-arrow{
+    position: relative;
     width: 0;
     height: 0;
+    left: -2%;
     border-bottom: 78px solid rgba(0,0,0,0);
     border-left: 40px solid #eceff1;
     border-top: 78px solid rgba(0,0,0,0);
@@ -1399,12 +1402,16 @@ iframe
 .definition-label-red {
     background-color: #cd4b64;
     color: #fff;
+    font-size: 11px;
+    line-height: 1;
+    padding: 3px 5px;
 }
+
 .definition-head-item-left{
       padding: 0 0 0 10px;
 }
 .definition-text-field{
-  width:100%;
+    width: 90%;
    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.3) inset;
     background-color: #fff;
     border: 1px solid #b0bec5;
@@ -1416,4 +1423,24 @@ iframe
     height: 38px;
     line-height: normal;
     padding: 0 15px;
+}
+.definition-input-left,.definition-input-right{
+  display: inline-block;
+  width:45%;
+}
+.card-input-br-btm{
+  border-bottom: 1px solid #eceff1;
+}
+.register-btn-group{
+  width:60%;
+  margin:0 auto;
+}
+.register-btn{
+  width:100%;
+  background-color: #cd4b64;
+  background-image: none;
+  border: 1px solid #b4415a;
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.18182;
 }
