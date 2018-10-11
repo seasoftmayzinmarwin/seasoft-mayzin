@@ -1,107 +1,33 @@
-<form method="POST" novalidate="">
-	<ul class="c-definition-table-group">
-		<li class="c-definition-table-group__item">
-			<dl class="c-definition-table">
-				<dt class="c-definition-table__head">
-					<span class="definition-head-item">
-						<span class="definition-label">必須
-						</span>
-					</span>
-					<span class="definition-head-item">法人名・貴社名
-					</span>
-				</dt>
-				<dd class="c-definition-table__body">
-					<input type="text" value="" name="name" class="c-text-field u-wd-450" placeholder="株式会社メドレー" maxlength="100">
-				</dd>
-			</dl>
-		</li>
-		<li class="c-definition-table-group__item">
-			<dl class="c-definition-table">
-				<dt class="c-definition-table__head">
-					<span class="c-definition-table__head-item">法人名・貴社名(フリガナ)
-					</span>
-				</dt>
-				<dd class="c-definition-table__body">
-					<input type="text" value="" name="kana" class="c-text-field u-wd-450" placeholder="カブシキガイシャメドレー" maxlength="100">
-				</dd>
-			</dl>
-		</li>
-		<li class="c-definition-table-group__item"><dl class="c-definition-table">
-			<dt class="c-definition-table__head">
-				<span class="c-definition-table__head-item">
-					<span class="c-label c-label--red u-whs-nowrap">必須</span>
-				</span>
-				<span class="c-definition-table__head-item">担当者氏名</span>
-			</dt>
-			<dd class="c-definition-table__body">
-				<div class="o-line__item u-wd-200">
-					<input type="text" value="" name="in_charge_family_name" class="c-text-field" placeholder="山田" maxlength="20">
-				</div>
-				<div class="o-line__item u-wd-200">
-					<input type="text" value="" name="in_charge_first_name" class="c-text-field" placeholder="太郎" maxlength="20">
-				</div>
-			</dd>
-		</dl>
-	</li>
-	<li class="c-definition-table-group__item">
-		<dl class="c-definition-table">
-			<dt class="c-definition-table__head">
-				<span class="c-definition-table__head-item">担当者氏名(フリガナ)
-				</span>
-			</dt>
-			<dd class="c-definition-table__body">
-				<div class="o-line__item u-wd-200">
-					<input type="text" value="" name="in_charge_family_name_kana" class="c-text-field" placeholder="ヤマダ" maxlength="20">
-				</div>
-				<div class="o-line__item u-wd-200">
-					<input type="text" value="" name="in_charge_first_name_kana" class="c-text-field" placeholder="タロウ" maxlength="20">
-				</div>
-			</dd>
-		</dl>
-	</li>
-	<li class="c-definition-table-group__item">
-		<dl class="c-definition-table">
-			<dt class="c-definition-table__head">
-				<span class="c-definition-table__head-item">
-					<span class="c-label c-label--red u-whs-nowrap">必須
-					</span>
-				</span>
-				<span class="c-definition-table__head-item">電話番号
-				</span>
-			</dt>
-			<dd class="c-definition-table__body">
-				<input type="text" value="" name="tel" class="c-text-field u-wd-450" placeholder="0123456789" maxlength="">
-			</dd>
-		</dl>
-	</li>
-	<li class="c-definition-table-group__item u-border-top-none">
-		<dl class="c-definition-table">
-			<dt class="c-definition-table__head">
-				<span class="c-definition-table__head-item"><span class="c-label c-label--red u-whs-nowrap">必須</span>
-			</span>
-			<span class="c-definition-table__head-item">メールアドレス</span>
-		</dt>
-		<dd class="c-definition-table__body">
-			<input type="text" value="" name="email" class="c-text-field u-wd-450" placeholder="example@job-medley.com" maxlength="">
-		</dd></dl></li></ul><div class="c-simple-form__form__bottom">
-			<button type="submit" class="c-button c-button--primary c-button--center u-wd-500 u-p-20 u-mb-20 u-fs-lh-xx-large-short">利用規約に同意して申し込む</button>
-			<a class="c-link u-fs-lh-medium-short" target="blank" href="/rule">
-				<div class="c-icon-text u-m-auto">
-					<div class="c-icon-text__text">利用規約はこちら</div>
-					<div class="c-icon-text__icon">
-						<span class="SVGInline SVGInline--cleaned c-icon c-icon--blue">
-							<svg class="SVGInline-svg SVGInline--cleaned-svg c-icon-svg c-icon--blue-svg" style="width: 16px;height: 16px;" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd">
-								<path d="M5.9 1v4.2h7.7v3.5h-2.1v1.4H15V1H5.9zm6.3 2.8h1.4V2.4h-1.4v1.4z">
-									
-								</path>
-								<path d="M1 15h9.1V6.6H1V15zm6.3-5.6h1.4V8H7.3v1.4zm-4.9 4.2h6.3v-2.8H2.4v2.8z">
-									
-								</path>
-							</g>
-						</svg>
-					</span>
-				</div>
-			</div>
-		</a>
-	</div>
-</form>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#option-body').append($('#list'));
+	
+		function confirm_email(){
+			
+			var email = $('#email').val();
+				$('#description-box').hide();
+				 function(res) { 
+							if(res.success === true)
+							{	
+								$(" #description-box").remove();
+							}
+							else{
+								if(res.status ==="invalid")
+								{
+									// $.each(res.errors,function(index,error){
+									// 	alert(error);
+									// 	$('#loading-img').hide();
+									// 	backToList();
+									// });
+									$('#description-box').show();
+									$(".red-message").show();
+							
+								}
+							
+							}					
+						}			
+		}
+
+	
+
+</script>
