@@ -1093,6 +1093,9 @@ iframe
 .space-pd-btm-sm{
   padding-bottom: 10px;
 }
+.space-pd-top-md{
+  padding-top: 20px;
+}
 .space-pd-top-sm{
   padding-top: 10px;
 }
@@ -1798,7 +1801,56 @@ iframe
 .pannel-right-link:hover{
   color:#FF004E;
 }
-
+/*-------Step2-Register-------*/
+.card-fw-normal{
+  font-weight: normal;
+}
+.zip-btn{
+    background-color: #3163a2;
+    color:#ffffff;
+    font-size: 12px;
+    line-height: 1.25;
+    padding: 8px 20px;
+    border: 1px solid #3163a2;
+    border-radius: 3px;
+    color: #fff;
+}
+.card-option{
+  width: 100% !important;
+}
+.card-selectbox, .card-selectbox-select {
+    display: table;
+    position: relative;
+    width: 100%;
+}
+.card-selectbox-select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fdfeff;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fdfeff),to(#eceff1));
+    background-image: -webkit-linear-gradient(#fdfeff,#eceff1);
+    background-image: -o-linear-gradient(#fdfeff,#eceff1);
+    background-image: linear-gradient(#fdfeff,#eceff1);
+    border: 1px solid #b0bec5;
+    border-radius: 3px;
+    color: #37474f;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 15px;
+}
+.e-input-left{
+  width:30% !important;
+}
+.e-input-right{
+ width:60% !important;
+}
+.img-heading{
+  font-size: 16px;
+  line-height: 1.375;
+  word-break: break-word;
+}
 @media screen and (min-width: 1001px){
 .facilities-sidebar {
     width: 270px;

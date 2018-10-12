@@ -1,33 +1,13 @@
-<script type="text/javascript">
-	$(document).ready(function(){
-		$('#option-body').append($('#list'));
-	
-		function confirm_email(){
-			
-			var email = $('#email').val();
-				$('#description-box').hide();
-				 function(res) { 
-							if(res.success === true)
-							{	
-								$(" #description-box").remove();
-							}
-							else{
-								if(res.status ==="invalid")
-								{
-									// $.each(res.errors,function(index,error){
-									// 	alert(error);
-									// 	$('#loading-img').hide();
-									// 	backToList();
-									// });
-									$('#description-box').show();
-									$(".red-message").show();
-							
-								}
-							
-							}					
-						}			
-		}
-
-	
-
-</script>
+<div class="chart-image-block" aria-disabled="false">
+	<div class="chart-image-inner">
+		<div class="chart-image-icon">
+			<span class="chart-icon">
+				<img src="">
+			</span>
+		</div>
+		<span class="chart-image-text card-fw-bold">このエリアに画像ファイルをドラッグ＆ドロップ</span><br>
+		<span class="c-image-placeholder__text">または</span>
+		<span class="c-link c-image-placeholder__link">画像をフォルダから選択</span>
+	</div>
+	<input type="file" accept="image/jpeg, image/jpg, image/gif, image/png" multiple="" autocomplete="off" style="display: none;">
+</div>
