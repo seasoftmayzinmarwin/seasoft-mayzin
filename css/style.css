@@ -1909,8 +1909,18 @@ iframe
 }
 /*-------step3-register-------*/
 .confirm-page{
-  width:60%;
+  width:74.3%;
   margin:0 auto;
+}
+.confirm-txt{
+  font-size: 14px;
+  line-height: 1.42857;
+}
+.weekend-hour{
+  color: #78909C;
+  font-size: 12px;
+  line-height: 1.25;
+  padding-left: 35px;
 }
 @media screen and (min-width: 1001px){
 .facilities-sidebar {

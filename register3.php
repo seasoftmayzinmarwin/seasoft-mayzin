@@ -44,9 +44,21 @@
 									</div><!-- .card-flowchart -->
 									<div class="space"></div>
 									<div class="confirm-page">
-										p
-										
+										<p class="confirm-txt">ご記入いただいたメールアドレス宛に「【ジョブメドレー】ご利用のお申し込みを承りました」という件名のメールをお送りしておりますのでご確認ください</p>
+										<p class="confirm-txt">お申し込み内容の確認・審査が完了しましたら、ジョブメドレー運営事務局より審査結果をご連絡させていただきます。</p>
+										<p class="confirm-txt">審査後にメールにて「採用管理画面」へのログイン情報をお送りいたします。採用管理画面へログインいただくと求人原稿の作成を開始できます。なお、メール送信後3日以上経ってもログインされていない場合はご記入いただいたお電話番号宛に弊社営業よりご連絡する場合がございます。</p>
+										<p class="confirm-txt">数日たっても連絡がない場合は、下記または<a class="" href="/faq/#inquiry_form">お問い合わせページ</a>よりお問い合わせください。</p>
+										<div class="row">
+											<div class="col">
+												<img class="img-fluid" src="image/phone.png" alt="phone"><br>
+												<span class="weekend-hour">9:00〜18:00 (土日祝日除く)</span>
+											</div>
+											<div class="col">
+												<img class="img-fluid " src="image/envolope.png" alt="envolope">
+											</div>
+										</div>
 									</div>
+									<div class="space"></div>
 									</div><!-- .main-content-register -->
 								</div><!-- .main-content-detail -->
 							</div><!-- .main-segment -->
