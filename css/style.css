@@ -1356,6 +1356,9 @@ iframe
     vertical-align: top;
     border-left: 40px solid #eceff1;
 }
+.arrow-complete{
+    border-left: 35px solid #ffebec !important;
+}
 .card-flowchart-arrow-main{
     border-left: 40px solid #ffebec !important;
 }
@@ -1462,6 +1465,9 @@ iframe
   color: #fff;
   font-size: 22px;
   line-height: 1.18182;
+}
+.e-detail-text{
+  font-size: 12px;
 }
 /*-------facilities-page--------*/
 .facilities-main{
@@ -1902,6 +1908,11 @@ iframe
 }
 .definition-txt-alert-red{
   color: #e52538;
+}
+/*-------step3-register-------*/
+.confirm-page{
+  width:60%;
+  margin:0 auto;
 }
 @media screen and (min-width: 1001px){
 .facilities-sidebar {
