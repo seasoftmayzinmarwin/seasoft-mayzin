@@ -1376,7 +1376,7 @@ iframe
       padding: 0px;
 }
 .definition-table-item{
-    border-bottom: 1px solid #eceff1;
+    /*border-bottom: 1px solid #eceff1;*/
     border-top: 1px solid #eceff1
 }
 .dl-definition-table{
@@ -1813,7 +1813,7 @@ iframe
 .card-fw-normal{
   font-weight: normal;
 }
-.zip-btn{
+.zip-btn,.registering-btn{
     background-color: #3163a2;
     color:#ffffff;
     font-size: 12px;
@@ -1822,6 +1822,15 @@ iframe
     border: 1px solid #3163a2;
     border-radius: 3px;
     color: #fff;
+}
+.registering-btn{
+    width: 100%;
+    font-size: 14px!important;
+    padding: 15px 20px!important;
+    cursor: pointer;
+}
+.registering-btn:hover{
+  background-color: #3c78c3;
 }
 .card-option{
   width: 100% !important;
@@ -1945,6 +1954,10 @@ iframe
 }
 .fac-new-link:hover{
   text-decoration: underline;
+}
+.registering-txt{
+  font-size:13px;
+  line-height: 1.38462;
 }
 @media screen and (min-width: 1001px){
 .facilities-sidebar {
