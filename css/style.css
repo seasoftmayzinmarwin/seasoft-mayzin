@@ -1924,6 +1924,28 @@ iframe
   line-height: 1.25;
   padding-left: 35px;
 }
+/*----new-page---*/
+.fac-new-heading{
+  font-size: 18px;
+  font-weight: 700px;
+  line-height: 1.33333;
+  word-break: break-word;
+}
+.e-fac-new-left{
+  width:65%;
+}
+.fac-new-link{
+    display: table;
+    color: #3c78c3 !important;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 15px 20px;
+    vertical-align: middle;
+    justify-content: center;
+}
+.fac-new-link:hover{
+  text-decoration: underline;
+}
 @media screen and (min-width: 1001px){
 .facilities-sidebar {
     width: 270px;

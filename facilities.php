@@ -7,7 +7,7 @@
           <div class="facilities-sidebar">
             <div class="facilities-register">
               <div class="new-btn-box">
-                <a class="new-btn-link" href="/customers/facilities/new/">＋ 施設を新規登録</a>
+                <a class="new-btn-link" href="new.php">＋ 施設を新規登録</a>
               </div><!-- .new-btn-box -->
             </div><!-- .facilities-register -->
             <div class="fac-sidebar-head">
