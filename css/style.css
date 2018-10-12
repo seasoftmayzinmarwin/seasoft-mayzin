@@ -1438,6 +1438,10 @@ iframe
   display: inline-block;
   width:45%;
 }
+.definition-input-sm{
+  display: inline-block;
+  width: 27%;
+}
 .definition-txt-error, .definition-txt-error:focus {
     background-color: #ffebec;
     border: 1px solid #e52538;
@@ -1863,6 +1867,15 @@ iframe
 .e-input-right{
  width:60% !important;
 }
+.e-register-left{
+  width:25% !important;
+}
+.e-register-center{
+  width:25% !important;
+}
+.e-register-right{
+  width:25% !important;
+}
 .img-heading{
   font-size: 16px;
   line-height: 1.375;
@@ -1959,6 +1972,135 @@ iframe
   font-size:13px;
   line-height: 1.38462;
 }
+.rating-checkbox{
+    height: auto;
+    vertical-align: baseline;
+    padding-right: 10px;
+    /* display: inline-block; */
+}
+.card-rating-box{
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 12px;
+}
+.card-rating-caption{
+      width: 15%;
+}
+.card-rating-cp-left{
+    max-width: 150px;
+    text-align: right;
+}
+.card-rating-box-item{
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 100px;
+    width: 10%;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.card-textarea,.card-textarea-sm,.card-input{
+    width: 100%;
+    max-width: 500px;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.3) inset;
+    background-color: #fff;
+    border: 1px solid #b0bec5;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 3px 0 rgba(0,0,0,.3);
+    color: #37474f;
+    font-size: 14px;
+    font-weight: 400;
+    min-height: 153px;
+    padding: 12px 15px; 
+     
+}
+.card-input{
+  color: #78909c;
+  min-height: auto !important;
+}
+input[type="radio"]:default + label:after {
+   content: ' (default)';
+   color: #999;
+   font-style: italic;
+}
+::placeholder{
+  color: #78909c;
+  opacity: 1; 
+}
+:-ms-input-placeholder { 
+   color: #78909c;
+}
+
+::-ms-input-placeholder {
+   color: #78909c;
+}
+.card-textarea-sm{
+  overflow: hidden; 
+  overflow-wrap: break-word; 
+  min-height: 58px;
+}
+.common-radio {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.common-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: 14px;
+    width: 14px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.common-radio:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+.common-radio input:checked ~ .checkmark {
+    background-color: #ffffff;
+    border: 1px solid #b0bec5;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.common-radio input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.common-radio .checkmark:after {
+  top: 1.9px;
+  left: 2px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #e52538;
+}
+.common-box-left,.common-box-right{
+  width:100px;
+  display: inline-table;
+  vertical-align: middle;
+}   
 @media screen and (min-width: 1001px){
 .facilities-sidebar {
     width: 270px;
