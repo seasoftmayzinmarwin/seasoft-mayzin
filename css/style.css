@@ -1851,6 +1851,56 @@ iframe
   line-height: 1.375;
   word-break: break-word;
 }
+.chart-image-block {
+    background-color: #fff;
+    border: 1px dashed #b0bec5;
+    border-radius: 3px;
+    cursor: pointer;
+    display: table;
+    height: 200px;
+    width: 100%;
+}
+.chart-image-inner {
+    display: table;
+    margin: 44px auto 0;
+    text-align: center;
+}
+.chart-image-icon {
+    display: block;
+}
+.chart-icon {
+    display: inline;
+    fill: #37474f;
+    line-height: 1;
+    }
+.chart-image-text {
+    color: #cfd8dc;
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+.chart-image-link{
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #3c78c3;
+    cursor: pointer;
+}
+.chart-image-link:hover{
+    text-decoration:underline;
+}
+.card-filter-box {
+    background-color: #fafafa;
+    padding: 20px;
+    word-break: break-word;
+}
+.card-photo-text{
+    font-size: 16px;
+    line-height: 1.375;
+}
+.definition-txt-alert-red{
+  color: #e52538;
+}
 @media screen and (min-width: 1001px){
 .facilities-sidebar {
     width: 270px;

@@ -182,5 +182,6 @@
     </div>
   </div>
 </section><!-- .card-list -->
+</div>
 
 <?php include('layout/footer.php') ?>
