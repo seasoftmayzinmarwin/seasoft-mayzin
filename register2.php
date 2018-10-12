@@ -190,7 +190,7 @@
 										<span class="chart-image-link">画像をフォルダから選択</span>
 									</div>
 									<input type="file" accept="image/jpeg, image/jpg, image/gif, image/png" multiple="" autocomplete="off" style="display: none;">
-								</div>
+										</div>
 									</div>
 								</dd>
 							</dl>
