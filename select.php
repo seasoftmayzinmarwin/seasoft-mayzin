@@ -94,8 +94,9 @@
                 </div>
                 <div class="space-pd-top-sm">
                 この4枚以上が揃っている求人は、
-                <span class="c-alert">
-                  <span class="definition-txt-alert-red card-fw-bold">写真がない求人より3倍ほど応募が集まる傾向にあります。</span></span><br>できるだけ多くの写真を登録されることをおすすめいたします。</div>
+                <span class="card-alert">
+                  <span class="definition-txt-alert-red card-fw-bold">写真がない求人より3倍ほど応募が集まる傾向にあります。</span>
+                </span><br>できるだけ多くの写真を登録されることをおすすめいたします。</div>
 
               </div>
                 </dd>
@@ -869,11 +870,12 @@
                     <span class="definition-label-red">必須
                     </span>
                   </span>
-                  <span class="definition-head-item definition-head-item-left">設名
+                  <span class="definition-head-item definition-head-item-left">施設名
                   </span>
                 </dt>
                 <dd class="definition-table-body e-fac-new-left">
-                  <input type="text" value="" name="name" class="definition-text-field" placeholder="メドレー病院" maxlength="100">
+                  <input type="text" value="" name="name" class="definition-text-field definition-txt-error" placeholder="メドレー病院" maxlength="100">
+                  <span class="definition-txt-alert">施設名を入力してください</span>
                 </dd>
                 <dd class="e-fac-new-right"> 
                   <div class="space-pd-top-sm">
@@ -893,7 +895,8 @@
                   </span>
                 </dt>
                 <dd class="definition-table-body e-fac-new-left">
-                  <input type="text" value="" name="kana" class="definition-text-field" placeholder="メドレービョウイン" maxlength="100">
+                  <input type="text" value="" name="kana" class="definition-text-field definition-txt-error" placeholder="メドレービョウイン" maxlength="100">
+                  <span class="definition-txt-alert">施設名(フリガナ)を入力してください</span>
                 </dd>
                 <dd class="e-fac-new-right"> 
               </dd>
@@ -926,8 +929,6 @@
                   </span>
                   </label>
                 </div>
-
-                  
                 </div>
                 <div class="definition-input-left e-register-center">
                   <div class="card-option">
@@ -971,13 +972,13 @@
                 </dt>
                 <dd class="definition-table-body e-fac-new-left">
                   <div class="definition-input-left">
-                  <input type="text" value="" name="charge_family_name" class="definition-text-field definition-txt-error" placeholder="1060032" maxlength="20">
+                  <input type="text" value="" name="charge_family_name" class="definition-text-field definition-txt-error" placeholder="郵便番号" maxlength="20">
                   
                 </div>
                 <div class="definition-input-right">
                   <span><button type="button" class="zip-btn card-fw-bold">郵便番号から住所を検索</button></span>
                 </div>
-                <span class="definition-txt-alert">郵便番号を入力してください</span>
+                <span class="definition-txt-alert"><span class="definition-txt-alert">郵便番号を入力してください</span></span>
                 </dd>
                 <dd class="e-fac-new-right"></dd>
               </dl>
@@ -1013,8 +1014,6 @@
                   </span>
                   </label>
                 </div>
-
-                  
                 </div>
                 <div class="definition-input-right e-input-right">
                   <div class="card-option">
@@ -1029,6 +1028,8 @@
                   </label>
                 </div>
                 </div>
+                <span class="definition-txt-alert">都道府県を選択してください</span>
+                <span class="definition-txt-alert">市区町村を選択してください</span>
                 </dd>
                 <dd class="e-fac-new-righta"></dd>
               </dl>
@@ -1061,7 +1062,8 @@
                   <div>
                     <button type="button" class="zip-btn card-fw-bold">郵便番号から住所を検索</button>
                   </div>
-                  <textarea name="access" class="card-textarea space-mt-10" placeholder="日比谷線六本木駅から徒歩2分" maxlength="2000" rows="1" style="overflow: hidden; overflow-wrap: break-word; height: 76px;"></textarea>
+                  <textarea name="access" class="card-textarea space-mt-10 definition-txt-error" placeholder="日比谷線六本木駅から徒歩2分" maxlength="2000" rows="1" style="overflow: hidden; overflow-wrap: break-word; height: 76px;"></textarea>
+                  <span class="definition-txt-alert">施設へのアクセスを入力してください</span>
                 </dd>
                 <dd class="e-fac-new-right"></dd>
               </dl>
