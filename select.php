@@ -120,132 +120,234 @@
 
                     </div>
                     <div class="">
-                    <div class="card-rating-box">
-                      <span class="card-rating-caption card-rating-cp-left">
-                        
-                      </span>
-                      <span class="card-rating-box-item">
-                        <div class="text-center card-fw-bold">とても当てはまる</div>
-                      </span>
-                      <span class="card-rating-box-item">
-                        <div class="text-center card-fw-bold">当てはまる</div>
-                      </span>
-                      <span class="card-rating-box-item"><div class="u-fs-lh-x-small-short u-ta-center">どちらでもない</div></span>
-                      <span class="card-rating-box-item">
-                        <div class="text-center card-fw-bold">当てはまる</div>
-                      </span>
-                      <span class="card-rating-box-item"><div class="card-fw-bold text-center">とても当てはまる</div>
-                      </span>
-                      <span class="card-rating-box-caption-right">
-                      </span>
-                    </div>
-                    <div class="card-rating-box">
-                        <span class="card-rating-caption card-rating-cp-left">
-                        若手多い</span>
-                        <span class="card-rating-box-item">
-                          <label class="card-radio">
-                            <input type="radio" value="1" name="question_1" class="card-radio-input">
-                            <span class="card-radio-icon-box">
-                              <span class="card-radio-icon"></span>
-                            </span>
+                        <div class="card-rating-box">
+                          <span class="card-rating-caption card-rating-cp-left">
+                            
+                          </span>
+                          <span class="card-rating-box-item">
+                            <div class="text-center card-fw-bold">とても当てはまる</div>
+                          </span>
+                          <span class="card-rating-box-item">
+                            <div class="text-center card-fw-bold">当てはまる</div>
+                          </span>
+                          <span class="card-rating-box-item"><div class="u-fs-lh-x-small-short u-ta-center">どちらでもない</div></span>
+                          <span class="card-rating-box-item">
+                            <div class="text-center card-fw-bold">当てはまる</div>
+                          </span>
+                          <span class="card-rating-box-item"><div class="card-fw-bold text-center">とても当てはまる</div>
+                          </span>
+                          <span class="card-rating-box-caption-right">
+                          </span>
+                        </div><!-- .card-rating-box -->
+                        <div class="card-rating-box">
+                          <span class="card-rating-caption card-rating-cp-left space-pd-top-sm">若手多い</span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                              <input type="radio" checked="checked" name="radio">
+                              <span class="checkmark"></span>
+                            </label>
+                          </span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                              <input type="radio" checked="checked" name="radio">
+                              <span class="checkmark"></span>
+                            </label>
+                          </span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                              <input type="radio" checked="checked" name="radio">
+                              <span class="checkmark"></span>
+                            </label>
+                          </span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                              <input type="radio" checked="checked" name="radio">
+                              <span class="checkmark"></span>
+                            </label>
+                          </span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                              <input type="radio" checked="checked" name="radio">
+                              <span class="checkmark"></span>
+                            </label>
+                          </span>
+                          <span class="card-rating-caption card-rating-cp-right space-pd-top-sm">ベテラン多い</span>
+                        </div><!-- .card-rating-box -->
+                        <div class="card-rating-box">
+                          <span class="card-rating-caption card-rating-cp-left space-pd-top-sm">
+                          男性多い</span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
                           </label>
                           </span>
                           <span class="card-rating-box-item">
-                          <label class="card-radio">
-                            <input type="radio" value="1" name="question_1" class="card-radio-input">
-                            <span class="card-radio-icon-box">
-                              <span class="card-radio-icon"></span>
-                            </span>
-                            </label> 
-
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
                           </span>
                           <span class="card-rating-box-item">
-                          <label class="card-radio">
-                            <input type="radio" value="1" name="question_1" class="card-radio-input">
-                            <span class="card-radio-icon-box">
-                              <span class="card-radio-icon"></span>
-                            </span>
-                             </label>
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
                           </span>
                           <span class="card-rating-box-item">
-                          <label class="card-radio">
-                            <input type="radio" value="1" name="question_1" class="card-radio-input">
-                            <span class="card-radio-icon-box">
-                              <span class="card-radio-icon"></span>
-                            </span>
-                             </label>
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
                           </span>
                           <span class="card-rating-box-item">
-                          <label class="card-radio">
-                            <input type="radio" value="1" name="question_1" class="card-radio-input">
-                            <span class="card-radio-icon-box">
-                              <span class="card-radio-icon"></span>
-                            </span>
-                             </label>
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
                           </span>
-                          <span class="card-rating-box-item">
-                          <label class="card-radio">
-                            <input type="radio" value="1" name="question_1" class="card-radio-input">
-                            <span class="card-radio-icon-box">
-                              <span class="card-radio-icon"></span>
-                            </span>
-                             </label>
-                          </span>
-                          <span class="card-rating-caption card-rating-cp-right">ベテラン多い</span>
-                        </div>
+                          <span class="card-rating-caption card-rating-cp-right space-pd-top-sm">女性多い</span>
+                        </div><!-- .card-rating-box -->
                         <div class="card-rating-box">
-                          <span class="card-rating-caption card-rating-cp-left">
-                          若手多い</span>
+                          <span class="card-rating-caption card-rating-cp-left space-pd-top-sm">
+                          活気がある</span>
                           <span class="card-rating-box-item">
-                            <label class="card-radio">
-                            <input type="radio" value="1" name="question_1" class="card-radio-input">
-                            <span class="card-radio-icon-box">
-                              <span class="card-radio-icon"></span>
-                            </span>
-                            </label>
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
                           </span>
                           <span class="card-rating-box-item">
-                            <label class="card-radio">
-                            <input type="radio" value="1" name="question_1" class="card-radio-input">
-                            <span class="card-radio-icon-box">
-                              <span class="card-radio-icon"></span>
-                            </span>
-                             </label>
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
                           </span>
                           <span class="card-rating-box-item">
-                            <label class="card-radio">
-                            <input type="radio" value="1" name="question_1" class="card-radio-input">
-                            <span class="card-radio-icon-box">
-                              <span class="card-radio-icon"></span>
-                            </span>
-                             </label>
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
                           </span>
                           <span class="card-rating-box-item">
-                            <label class="card-radio">
-                            <input type="radio" value="1" name="question_1" class="card-radio-input">
-                            <span class="card-radio-icon-box">
-                              <span class="card-radio-icon"></span>
-                            </span>
-                             </label>
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
                           </span>
                           <span class="card-rating-box-item">
-                            <label class="card-radio">
-                              <input type="radio" value="1" name="question_1" class="card-radio-input">
-                              <span class="card-radio-icon-box">
-                                <span class="card-radio-icon"></span>
-                              </span>
-                             </label>
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          </span>
+                          <span class="card-rating-caption card-rating-cp-right space-pd-top-sm">落ち着いている</span>
+                        </div><!-- .card-rating-box -->
+                        <div class="card-rating-box">
+                          <span class="card-rating-caption card-rating-cp-left space-pd-top-sm">
+                          柔軟な社風</span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
                           </span>
                           <span class="card-rating-box-item">
-                            <label class="card-radio">
-                            <input type="radio" value="1" name="question_1" class="card-radio-input">
-                            <span class="card-radio-icon-box">
-                              <span class="card-radio-icon"></span>
-                            </span>
-                            </label>
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
                           </span>
-                          <span class="card-rating-caption card-rating-cp-right">ベテラン多い</span>
-                      </div>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          </span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          </span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          </span>
+                          <span class="card-rating-caption card-rating-cp-right space-pd-top-sm">堅実な社風</span>
+                        </div><!-- .card-rating-box -->
+                        <div class="card-rating-box">
+                          <span class="card-rating-caption card-rating-cp-left space-pd-top-sm">
+                          育成重視</span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          </span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          </span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          </span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          </span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          </span>
+                          <span class="card-rating-caption card-rating-cp-right space-pd-top-sm">即戦力重視</span>
+                        </div><!-- .card-rating-box -->
+                        <div class="card-rating-box">
+                          <span class="card-rating-caption card-rating-cp-left space-pd-top-sm">
+                          柔軟な勤務スタイル</span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          </span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          </span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          </span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          </span>
+                          <span class="card-rating-box-item">
+                            <label class="common-radio">
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          </span>
+                          <span class="card-rating-caption card-rating-cp-right space-pd-top-sm">勤務時間できっちり</span>
+                        </div><!-- .card-rating-box -->
                     </div>
                   </div>
                 </dd>
@@ -277,7 +379,7 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">下書き</span>
+                                <span class="checkmark-text">歯科</span>
                               </label>
                               
                               </div>
@@ -287,7 +389,7 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">掲載中</span>
+                                <span class="checkmark-text">漢方</span>
                               </label>
                               
                               </div>
@@ -297,19 +399,19 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">新規掲載申請中</span>
+                                <span class="checkmark-text">大学病院</span>
                               </label>
                               
                               </div>
                           </div>
-                        </div>
+                        </div><!-- .row -->
                         <div class="row">
                           <div class="col">
                               <div class="grid-checkbox">
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">下書き</span>
+                                <span class="checkmark-text">訪問リハビリ</span>
                               </label>
                               
                               </div>
@@ -319,7 +421,7 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">掲載中</span>
+                                <span class="checkmark-text">一般内科</span>
                               </label>
                               
                               </div>
@@ -329,19 +431,19 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">新規掲載申請中</span>
+                                <span class="checkmark-text">消化器内科</span>
                               </label>
                               
                               </div>
                           </div>
-                        </div>
+                        </div><!-- .row -->
                         <div class="row">
                           <div class="col">
                               <div class="grid-checkbox">
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">下書き</span>
+                                <span class="checkmark-text">循環器内科</span>
                               </label>
                               
                               </div>
@@ -351,7 +453,7 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">掲載中</span>
+                                <span class="checkmark-text">呼吸器内科</span>
                               </label>
                               
                               </div>
@@ -361,19 +463,20 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">新規掲載申請中</span>
+                                <span class="checkmark-text">腎臓内科
+                                </span>
                               </label>
                               
                               </div>
                           </div>
-                        </div>
+                        </div><!-- .row -->
                         <div class="row">
                           <div class="col">
                               <div class="grid-checkbox">
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">下書き</span>
+                                <span class="checkmark-text"> 血液内科</span>
                               </label>
                               
                               </div>
@@ -383,7 +486,7 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">掲載中</span>
+                                <span class="checkmark-text">心療内科</span>
                               </label>
                               
                               </div>
@@ -393,19 +496,19 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">新規掲載申請中</span>
+                                <span class="checkmark-text">神経内科</span>
                               </label>
                               
                               </div>
                           </div>
-                        </div>
+                        </div><!-- .row -->
                         <div class="row">
                           <div class="col">
                               <div class="grid-checkbox">
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">下書き</span>
+                                <span class="checkmark-text">内分泌内科</span>
                               </label>
                               
                               </div>
@@ -415,7 +518,7 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">掲載中</span>
+                                <span class="checkmark-text">一般外科</span>
                               </label>
                               
                               </div>
@@ -425,19 +528,19 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">新規掲載申請中</span>
+                                <span class="checkmark-text">消化器外科</span>
                               </label>
                               
                               </div>
                           </div>
-                        </div>
+                        </div><!-- .row -->
                         <div class="row">
                           <div class="col">
                               <div class="grid-checkbox">
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">下書き</span>
+                                <span class="checkmark-text">心臓血管外科</span>
                               </label>
                               
                               </div>
@@ -447,7 +550,7 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">掲載中</span>
+                                <span class="checkmark-text">呼吸器外科</span>
                               </label>
                               
                               </div>
@@ -457,19 +560,19 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">新規掲載申請中</span>
+                                <span class="checkmark-text">脳神経外科</span>
                               </label>
                               
                               </div>
                           </div>
-                        </div>
+                        </div><!-- .row -->
                         <div class="row">
                           <div class="col">
                               <div class="grid-checkbox">
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">下書き</span>
+                                <span class="checkmark-text">整形外科</span>
                               </label>
                               
                               </div>
@@ -479,7 +582,7 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">掲載中</span>
+                                <span class="checkmark-text">形成外科</span>
                               </label>
                               
                               </div>
@@ -489,19 +592,19 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">新規掲載申請中</span>
+                                <span class="checkmark-text">乳腺外科</span>
                               </label>
                               
                               </div>
                           </div>
-                        </div>
+                        </div><!-- .row -->
                         <div class="row">
                           <div class="col">
                               <div class="grid-checkbox">
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">下書き</span>
+                                <span class="checkmark-text">精神科</span>
                               </label>
                               
                               </div>
@@ -511,7 +614,7 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">掲載中</span>
+                                <span class="checkmark-text">眼科</span>
                               </label>
                               
                               </div>
@@ -521,19 +624,19 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">新規掲載申請中</span>
+                                <span class="checkmark-text">耳鼻咽喉科</span>
                               </label>
                               
                               </div>
                           </div>
-                        </div>
+                        </div><!-- .row -->
                         <div class="row">
                           <div class="col">
                               <div class="grid-checkbox">
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">下書き</span>
+                                <span class="checkmark-text">皮膚科</span>
                               </label>
                               
                               </div>
@@ -543,7 +646,7 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">掲載中</span>
+                                <span class="checkmark-text">泌尿器科</span>
                               </label>
                               
                               </div>
@@ -553,12 +656,204 @@
                                 <label class="grid-checkbox-label">
                                 <input type="checkbox" value="0" name="" class="grid-checkbox-input">
                                 <span class="checkmark"></span>
-                                <span class="checkmark-text">新規掲載申請中</span>
+                                <span class="checkmark-text">放射線科</span>
                               </label>
                               
                               </div>
                           </div>
-                        </div>
+                        </div><!-- .row -->
+                        <div class="row">
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">救命救急</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">美容外科・美容皮膚科</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">小児科</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                        </div><!-- .row -->
+                        <div class="row">
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">産婦人科</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">麻酔科</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">健診・検診・人間ドック</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                        </div><!-- .row -->
+                        <div class="row">
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">リウマチ科</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">緩和ケア科</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">病理科</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                        </div><!-- .row -->
+                        <div class="row">
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">在宅医療</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">総合診療科</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">慢性期</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                        </div><!-- .row -->
+                        <div class="row">
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">急性期</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">回復期</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">終末期</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                        </div><!-- .row -->
+                        <div class="row">
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">アレルギー科</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">リハビリテーション科</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                          <div class="col">
+                              <div class="grid-checkbox">
+                                <label class="grid-checkbox-label">
+                                <input type="checkbox" value="0" name="" class="grid-checkbox-input">
+                                <span class="checkmark"></span>
+                                <span class="checkmark-text">ペインクリニック</span>
+                              </label>
+                              
+                              </div>
+                          </div>
+                        </div><!-- .row -->
                       </div><!-- .filter-grid -->
                   </div>
                 </dd>
@@ -983,8 +1278,31 @@
             
           </ul>
       </form>
+      <div class="h-p-30">
+    <div class="row">
+      <table class="btn-table">
+        <tbody class="btn-table-body">
+          <tr>
+            <td class="btn-table-item">
+              <button type="button" class="tbl-btn-grey">プレビュー</button>
+              <div class="tex-center">
+                <div class="tbl-alert-item">
+                  <div class="tbl-alert-text card-fw-bold">仕上がりを確認しましょう！
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td class="btn-table-item card-bdr-left">
+              <button type="submit" class="tbl-btn-blue">この内容で施設を登録する</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
   </div><!-- .card -->
-
+  <div class="space"></div>
+  
 </div><!-- .content -->
 
 <?php include('layout/footer.php') ?>
