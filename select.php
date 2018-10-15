@@ -850,7 +850,6 @@
                                 <span class="checkmark"></span>
                                 <span class="checkmark-text">ペインクリニック</span>
                               </label>
-                              
                               </div>
                           </div>
                         </div><!-- .row -->
