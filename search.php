@@ -226,12 +226,11 @@
               <table class="card-tbl">
                 <thead class="card-tbl-head">
                   <tr>
-                    <th class="card-head-tbl-item">
+                    <th class="card-head-tbl-item card-wd-30">
                       <div class="grid-checkbox">
                         <label class="grid-checkbox-label">
                           <input value="0" name="" class="grid-checkbox-input" type="checkbox">
                           <span class="checkmark"></span>
-                          <span class="checkmark-text">下書き</span>
                         </label>
                       </div>
                     </th>
@@ -243,12 +242,11 @@
                 </thead>
                 <tbody class="card-tbl-body">
                   <tr class="card-tbl-row">
-                    <td class="card-tbl-body-item card-item-middle">
+                    <td class="card-tbl-body-item card-item-middle card-wd-30">
                       <div class="grid-checkbox">
                         <label class="grid-checkbox-label">
                           <input value="0" name="" class="grid-checkbox-input" type="checkbox">
                           <span class="checkmark"></span>
-                          <span class="checkmark-text">下書き</span>
                         </label>
                       </div>
                     </td>
@@ -262,23 +260,16 @@
                           <span class="card-fw-bold">40歳 女性</span>
                         </li>
                       </ul>
-                      <div class="">
-                        <div class="">
-                          <span class="">希望勤務地</span>
+                      <div class="card-line">
+                        <div class="card-line-item card-line-left">
+                          <span class="card-item-title">希望勤務地</span>
                         </div>
                         <span>
-                          <div class="">福岡県北九州市小倉北区
+                          <div class="card-line-item card-line-right">福岡県北九州市小倉北区
                           </div>
                         </span>
                       </div>
-                      <div class="">
-                        <div class="">
-                          <span class="">希望勤務形態</span>
-                        </div>
-                        <div class="">
-                          <span>正職員</span>
-                        </div>
-                      </div>
+                      
                       <div class="">希望条件</div>
                       <div class="u-mt-5"></div>
                     </td>
