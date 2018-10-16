@@ -168,7 +168,7 @@
                     </dd>
                   </dl>
                   <div class="filter-pannel-btn">
-                    <button type="submit" class="pannel-btn-submit">
+                    <button type="submit" class="pannel-btn-submit pannel-btn-wd">
                       <span class="icon-btn-blue">
                         <i class="fa fa-search" aria-hidden="true"></i>
                       </span>
