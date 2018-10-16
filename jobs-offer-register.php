@@ -721,7 +721,7 @@
                   <div class="space-pd-top-sm">
                       <span class="definition-txt-alert card-fw-normal">多くの求職者は月給または時給で比較されますので、年俸制や日給制であっても、可能な限り月給換算・時給換算を記入することをおすすめします
                       </span>
-                    <span class="registering-txt">換算の記入が難しい場合は、給与の備考欄に詳しくご記載ください。</span>
+                    <span class="registering-txt card-font-grey">換算の記入が難しい場合は、給与の備考欄に詳しくご記載ください。</span>
                   </div>
                 </dd>
               </dl>
@@ -864,7 +864,7 @@
                   <div class="space-pd-top-sm">
                       <span class="definition-txt-alert card-fw-normal">社会保険完備や賞与ありと明記されている求人は、もっとも閲覧される傾向にあります。
                       </span>
-                    <span class="space-mt-10 registering-txt">フリーテキスト欄に記入いただくだけでなく、当てはまる特徴にチェックを入れていただくと、求職者から検索されやすくなります。</span>
+                    <span class="space-mt-10 registering-txt card-font-grey">フリーテキスト欄に記入いただくだけでなく、当てはまる特徴にチェックを入れていただくと、求職者から検索されやすくなります。</span>
                   </div>
                   <div class="space"></div>
                 </dd>
@@ -1300,7 +1300,7 @@
                   <div class="space-pd-top-sm">
                       <span class="definition-txt-alert card-fw-normal">求職者が迷われないよう、必須の条件は「応募要件」に、必須ではないが望ましい条件は「歓迎要件」にご記入ください。
                       </span>
-                    <span class="space-mt-10 registering-txt">フリーテキスト欄に記入いただくだけでなく、当てはまる特徴にチェックを入れていただくと、求職者から検索されやすくなります。</span>
+                    <span class="space-mt-10 registering-txt card-font-grey">フリーテキスト欄に記入いただくだけでなく、当てはまる特徴にチェックを入れていただくと、求職者から検索されやすくなります。</span>
                   </div>
                   <div class="space"></div>
                 </dd>
@@ -1420,7 +1420,7 @@
                   750000円
                 </dd>
                 <dd class="e-fac-new-right">
-                  <span class="registering-txt">採用単価を上げていただくと、検索結果ページで当該求人がほかの求人より上位に表示されるようになり、より多くの求職者の目に止まりやすくなります。</span>
+                  <span class="registering-txt card-font-grey">採用単価を上げていただくと、検索結果ページで当該求人がほかの求人より上位に表示されるようになり、より多くの求職者の目に止まりやすくなります。</span>
                 </dd>
               </dl>
             </li>
