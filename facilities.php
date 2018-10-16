@@ -31,7 +31,7 @@
                 <div class="fac-scroll-inner">
                   <ul class="fac-nav-list">
                     <li class="fac-nav-item">
-                      <a class="fac-nav-link">
+                      <a class="fac-nav-active fac-nav-link">
                         <div class="fac-nav-link-inner">
                           <div class="fac-media">
                             <div class="fac-media-left">

@@ -1089,17 +1089,38 @@ iframe
 .space-mt-auto {
     margin: 0 auto !important;
 }
+.space-mt-none{
+  margin:0px !important;
+}
 .space-pd-20{
-  padding: 20px !important;;
+  padding: 20px !important;
+}
+.space-pd-10{
+  padding: 10px;
 }
 .space-pd-btm-sm{
   padding-bottom: 10px;
+}
+.space-pd-btm-md{
+  padding-bottom: 20px;
 }
 .space-pd-top-md{
   padding-top: 20px;
 }
 .space-pd-top-sm{
   padding-top: 10px;
+}
+.space-pd-top-xs{
+  padding-top: 5px;
+}
+.space-pd-sm{
+  padding:15px 0px;
+}
+.space-pl-20{
+  padding-left: 20px;
+}
+.space-pl-10{
+  padding-left: 10px ;
 }
 .card-font-grey{
    color: #879195;
@@ -1475,10 +1496,9 @@ iframe
 }
 /*-------facilities-page--------*/
 .facilities-main{
-    display: table-cell;
     vertical-align: top;
-    margin: 0 0 0 200px;
-    max-width: 100%;
+    table-layout: fixed;
+    width: 100%;
 }
 .facilities-sidebar{
     min-width: 200px;
@@ -1595,6 +1615,17 @@ iframe
     text-decoration: none;
     width: 100%;
   }
+.fac-nav-active{
+  display: block;
+  border-right: 4px solid #3c78c3 !important;
+}
+a.fac-nav-active:active,a.fac-nav-active:focus{
+  display: block;
+  border-right: 4px solid #3c78c3 !important;
+}
+a.fac-nav-active:before{
+  border-right: 4px solid #3c78c3 !important;
+}
 .fac-nav-link:hover{
   background: #ffffff;
   text-decoration: none;
@@ -2159,6 +2190,253 @@ input[type="radio"]:default + label:after {
 }
 .card-bdr-left{
     border-left: 1px solid #eceff1!important;
+}
+.card-bdr-top{
+    border-top: 1px solid #eceff1; 
+}
+.card-inline-tbl{
+  display: inline-table !important;
+}
+/*---------facilities-list-----------*/
+.list-heading{
+  display: block;
+  box-sizing: border-box;
+}
+.list-gp-item{
+    display: table-cell;
+    vertical-align: middle;
+}
+.list-heading dl{
+  margin:0;
+}
+.applicable-jobs-left{
+  padding:0 10px;
+}
+.applicable-jobs-right{
+    border-left: 1px solid #b0bec5;
+    padding: 0 10px;
+}
+.list-jobs-main {
+    padding: 30px 20px 0;
+}
+.list-jobs-body {
+    display: table;
+    width: 100%;
+    margin-bottom: 20px;
+    table-layout: fixed;    
+}
+.list-jobs-thumb, .list-jobs-img {
+    display: table-cell;
+    vertical-align: middle;
+    width: 160px;
+}
+.list-jobs-img {
+    background-color: #eceff1;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.list-jobs-summary {
+    display: table-cell;
+    vertical-align: top;
+}
+.summary-heading{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.45455;
+    word-break: break-word;
+}
+.list-jobs-action {
+    display: table-cell;
+    text-align: center;
+    width: 140px;
+}
+.list-label-gp{
+    overflow: hidden;
+}
+.list-label-gp-inner {
+    display: block;
+    margin: -5px -5px 0 0;
+    overflow: hidden;
+    padding:0px;
+}
+.list-label-gp-item{
+    display: block;
+    float: left;
+    margin: 5px 5px 0 0;
+}
+.list-label {
+    background-color: #eceff1;
+    color: #37474f;
+    display: table;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.36364;
+    line-height: 1;
+    padding: 3px 5px;
+    white-space: pre-wrap;
+}
+.list-label-circle {
+    border: 2px solid #eceff1;
+    border-radius: 11px;
+    padding: 1px 8px;
+}
+.list-gp-outline{
+    font-size: 12px;
+    line-height: 1.25;
+    margin-top: 10px;
+}
+.list-outline-list{
+    display: table;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.list-outline-head {
+    display: table-cell;
+    white-space: nowrap;
+}
+.list-outline-body {
+    display: table-cell;
+}
+.list-jobs-action{
+  padding-left:0px;
+  list-style: none;
+}
+.list-action-link{
+    color: #3c78c3;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px!important;
+    line-height: 1.42857!important;
+}
+.list-label-green{
+    display: inline-table;
+    background-color: #fff;
+    border: 2px solid #0da69e;
+    border-radius: 11px;
+    color: #0da69e;
+    padding: 1px 8px;
+}
+.list-label-red {
+    display: inline-table;
+    background-color: #fff;
+    border: 2px solid #cd4b64;
+    border-radius: 11px;
+    color: #cd4b64;
+    padding: 1px 8px;
+}
+.list-label-blue {
+    display: inline-table;
+    background-color: #fff;
+    border: 2px solid #3c78c3;
+    border-radius: 11px;
+    color: #3c78c3;
+    padding: 1px 8px;
+}
+.list-label-grey {
+    display: inline-table;
+    background-color: #fff;
+    border: 2px solid #455a64;
+    border-radius: 11px;
+    color: #455a64;
+    padding: 1px 8px;
+}
+.tour-btn-box {
+    background-color: #fabacc;
+    padding: 15px 20px;
+    text-align: center;
+}
+.card-btn{
+  background-color: #fdfeff;
+    /* background-image: -webkit-gradient(linear,left top,left bottom,from(#fdfeff),to(#eceff1)); */
+    background-image: -webkit-linear-gradient(#fdfeff,#eceff1);
+    background-image: -o-linear-gradient(#fdfeff,#eceff1);
+    background-image: linear-gradient(#fdfeff,#eceff1);
+    border: 1px solid #b0bec5;
+    border-radius: 3px;
+    color: #3c78c3;
+    cursor: pointer;
+    display: table;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.42857;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.card-btn-sm{
+    font-size: 12px;
+    line-height: 1.25;
+    padding: 8px 20px;
+}
+.card-wd-100{
+  width: 100%;
+}
+.card-btn-link{  
+    width: 230px!important;
+    background: #b4415a;
+    border: 1px solid #b4415a;
+    color: #fff;
+    margin: 0 auto;
+  }
+.card-btn-link:hover{
+  color: #fff;
+  background: #cc0a44;
+  text-decoration: none;
+}
+.list-jobs-items{
+  list-style: none;
+  padding-left: 0px;
+}
+.list-gp-main-second{
+border-top: 1px solid #eceff1;
+}
+.list-jobs-action-second{
+    background-color: #fafafa;
+    display: table-cell;
+    width: 207px;
+    padding: 20px;
+    vertical-align: top;  
+    list-style: none;
+}
+.list-jobs-inner{
+    padding: 0;
+}
+.list-jobs-thumb-second {
+    display: table-cell;
+     width: 136px;
+    padding: 20px 0 20px 20px;
+    vertical-align: top;
+}
+.list-jobs-img {
+    background-color: #eceff1;
+    display: table-cell;
+    width: 116px;
+    height: 87px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.list-summary-second{
+    padding: 20px 15px;
+}
+.list-offer-name{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.42857;
+}
+.list-offer-employment{
+    font-weight: 700;
+    margin-left: 10px;
+    line-height: 1.25;
+    font-size: 12px;
+}
+.list-offer-txt{
+    font-size: 14px;
+    line-height: 1.42857;
+    margin:0;
 }
 @media screen and (min-width: 1001px){
 .facilities-sidebar {
