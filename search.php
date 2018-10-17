@@ -17,10 +17,10 @@
                           </div>
                         </div>
                         <div class="panel panel-default card-bdr-top ">
-                    <div class="panel-heading">
-                      <a class="accordation-head card-fw-bold" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="accordation-title">保存した検索条件</span><span class="accordation-icon "><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
-                    </div>
-                          <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-heading">
+                          <a class="accordation-head card-fw-bold" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="accordation-title">保存した検索条件</span><span class="accordation-icon "><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
+                        </div>
+                      <div id="collapseTwo" class="panel-collapse collapse">
                               <div class="panel-body">
                                 <table class="table">
                                     <tr>
@@ -126,7 +126,7 @@
                                     <table class="table">
                                         <tr>
                                             <td class="card-bdr-top accordation-pd-td">
-                                                <a href="#" class="acc-secod-head ">
+                                                <a href="/seasoftadmin/search2.php" class="acc-secod-head ">
                                                   <span class="acc-ellipsis accordation-title  space-pl-10 card-fw-normal">看護師/看護師 ライフサポート訪問看護リハビリステーション菊名 パート・バイト</span>
                                                 </a>
                                             </td>
