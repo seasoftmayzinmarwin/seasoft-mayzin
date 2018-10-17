@@ -1465,6 +1465,7 @@ iframe
     line-height: normal;
     padding: 0 15px;
 }
+
 .definition-input-left,.definition-input-right{
   display: inline-block;
   width:45%;
@@ -2109,6 +2110,7 @@ a.fac-nav-active:before{
 .e-card-textarea{
   max-width: 90% !important;
 }
+.e-card-textarea
 .card-input{
   color: #78909c;
   min-height: auto !important;
@@ -2431,7 +2433,7 @@ input[type="radio"]:default + label:after {
     padding: 8px 20px;
 }
 .card-wd-100{
-  width: 100%;
+  width: 100% !important;
 }
 .card-wd-auto{
   width: auto !important;
