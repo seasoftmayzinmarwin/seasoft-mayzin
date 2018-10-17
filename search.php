@@ -223,13 +223,17 @@
               </form>
             </div>
           </div><!-- .fac-content-block --> 
-          <div class="space"></div>
-          <div class="card-counter">
+          <div class="card-counter space-pd-sm clearfix">
             <div class="card-counter-inner pull-right">
-              
+              <div class="card-counter-item">
+                <a href="/faq/?inquiry_type_value=17#contact-form" target="_blank" class="card-btn car-btn-small">スカウト増量プランのご案内</a>
+              </div>
+              <div class="card-counter-item">
+                <span class="card-counter-txt">今月の残りスカウト送信数</span>
+                <span class="card-counter-no">200</span>
+              </div>
             </div><!-- .card-counter-inner -->
           </div><!-- .card-counter -->
-          <div class="space"></div>
           <div class="fac-content-block">
             <div class="space-pd-20">
               <dl class="search-inline-form">

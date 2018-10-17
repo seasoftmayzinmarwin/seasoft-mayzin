@@ -2563,6 +2563,30 @@ border-top: 1px solid #eceff1;
     margin:0;
 }
 .card-counter{  
+  display: block;
+}
+.card-counter-item {
+    display: table-cell;
+    vertical-align: middle;
+}
+.card-counter-item+.card-counter-item {
+    padding-left: 14px;
+}
+.card-counter-txt {
+    color: #444;
+    display: table-cell;
+    font-size: 12px;
+    line-height: 1.25;
+    vertical-align: middle;
+}
+.card-counter-no{
+    color: #666;
+    display: table-cell;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.45455;
+    padding: 0 0 0 10px;
+    vertical-align: middle;
 }
 .card-wd-27{
     width: 27% !important;
@@ -2744,6 +2768,11 @@ border-top: 1px solid #eceff1;
 .card-small-short {
     font-size: 13px!important;
     line-height: 1.38462!important;
+}
+.car-btn-small{
+    font-size: 12px;
+    line-height: 1.25;
+    padding: 8px 20px;
 }
 .nav-advice-item{
     color: #78909c;
