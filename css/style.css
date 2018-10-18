@@ -2442,6 +2442,9 @@ input[type="radio"]:default + label:after {
 .card-wd-auto{
   width: auto !important;
 }
+.car-wd-245{
+  width: 245px !important;
+}
 .card-wd-35{
   width:35px;
 }
@@ -2459,6 +2462,16 @@ input[type="radio"]:default + label:after {
   color: #fff;
   background: #cc0a44;
   text-decoration: none;
+}
+.card-display-tbl{
+  display: table!important;
+}
+.card-display-cell{
+  display: table-cell!important;
+}
+.card-display-none{
+    display: none!important;
+}
 }
 .list-jobs-items{
   list-style: none;
