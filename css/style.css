@@ -2435,6 +2435,10 @@ input[type="radio"]:default + label:after {
 .card-wd-100{
   width: 100% !important;
 }
+.car-mx-wd-auto{
+  width: 100% !important;
+  max-width: 100% !important;
+}
 .card-wd-auto{
   width: auto !important;
 }
