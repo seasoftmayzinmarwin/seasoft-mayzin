@@ -41,8 +41,8 @@
               </span>
             </div>
 
-            <div class="card-font-grey">神奈川県横浜市戸塚区</div>
-            <div class="card-font-grey">会員番号 : 334974</div>
+            <div class="card-font-grey space-pd-top-sm">神奈川県横浜市戸塚区</div>
+            <div class="card-font-grey space-pd-top-sm">会員番号 : 334974</div>
           </a>
         </div>
         <div class="p-2 flex-fill e-flex-fill">
@@ -61,8 +61,8 @@
               </span>
             </div>
 
-            <div class="card-font-grey">神奈川県横浜市戸塚区</div>
-            <div class="card-font-grey">会員番号 : 334974</div>
+            <div class="card-font-grey space-pd-top-sm">神奈川県横浜市戸塚区</div>
+            <div class="card-font-grey space-pd-top-sm">会員番号 : 334974</div>
           </a>
         </div>
         <div class="p-2 flex-fill e-flex-fill">
@@ -81,8 +81,8 @@
               </span>
             </div>
 
-            <div class="card-font-grey">神奈川県横浜市戸塚区</div>
-            <div class="card-font-grey">会員番号 : 334974</div>
+            <div class="card-font-grey space-pd-top-sm">神奈川県横浜市戸塚区</div>
+            <div class="card-font-grey space-pd-top-sm">会員番号 : 334974</div>
           </a>
         </div>
       </div>
