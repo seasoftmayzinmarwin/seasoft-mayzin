@@ -246,7 +246,7 @@
                   </div>
                   <input value="" name="position" class="definition-text-field card-wd-100" placeholder="質問を入力してください" maxlength="100" type="text">
                   <p class="space-pd-top-sm">※質問は50文字以下でご入力ください</p>
-                  <textarea name="staff_interviews" class="card-textarea space-mt-10 car-mx-wd-auto" placeholder="日比谷線六本木駅から徒歩2分" maxlength="2000" rows="1" style="overflow: hidden; overflow-wrap: break-word; height: 76px;"></textarea><br><br>
+                  <textarea name="staff_interviews" class="card-textarea space-mt-10 car-mx-wd-auto" placeholder="日比谷線六本木駅から徒歩2分" maxlength="2000" rows="1" style="overflow: hidden; overflow-wrap: break-word; height: 76px;"></textarea>
                   <p class="space-pd-top-sm">※回答は100文字以上、500文字以下でご入力ください</p>
                 </dd>
               </dl>

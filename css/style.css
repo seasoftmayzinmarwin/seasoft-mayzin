@@ -1119,6 +1119,9 @@ iframe
 .space-pd-xs{
   padding: 5px 0px
 }
+.space-pl-40{
+  padding-left: 40px !important;
+}
 .space-pl-20{
   padding-left: 20px !important;
 }
@@ -1160,9 +1163,9 @@ iframe
 .e-flex-fill{
   padding:0 !important;
 }
-.card-small-short {
+/*.card-small-short {
     line-height: 2.5 !important;
-}
+}*/
 /*------Login-header------*/
 .header-block{
     height: 50px;
@@ -2435,6 +2438,9 @@ input[type="radio"]:default + label:after {
 .card-wd-100{
   width: 100% !important;
 }
+.card-wd-680{
+  width: 680px;
+}
 .car-mx-wd-auto{
   width: 100% !important;
   max-width: 100% !important;
@@ -2447,6 +2453,9 @@ input[type="radio"]:default + label:after {
 }
 .card-wd-35{
   width:35px;
+}
+.card-wd-80{
+  width:80px;
 }
 .card-wd-date-100{
   width:100px;
@@ -2675,6 +2684,10 @@ border-top: 1px solid #eceff1;
     display: inline-flex;
     height: 26px!important;
 }
+.card-icon-txt-icon+.card-icon-txt, .card-icon-txt+.card-icon-txt-icon{
+padding: 0 0 0 5px !important;
+}
+
 .card-icon-txt-inner{
     -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
@@ -2802,6 +2815,10 @@ border-top: 1px solid #eceff1;
 }
 .card-small-short {
     font-size: 13px!important;
+    line-height: 1.42857!important;
+}
+.card-medium-short{
+    font-size: 14px!important;
     line-height: 1.38462!important;
 }
 .car-btn-small{
@@ -2853,7 +2870,41 @@ border-top: 1px solid #eceff1;
     text-align: center;
     font-weight: 700;
     text-decoration: none;
-
+}
+/*------home-page------*/
+.main-with-sidebar{
+  width: 800px;
+  margin:0 auto;
+}
+.card-list-left{
+}
+.card-feed {
+    height: 112px;
+    overflow-y: scroll;
+    width: 100%;
+}
+.card-feed-inner{
+  list-style: none;
+}
+.card-feed-item-inner {
+    display: table;
+}
+.card-feed-date {
+    color: #37474f;
+    font-size: 12px;
+    line-height: 1.25;
+    padding: 0 10px 0 0;
+    width: 85px;
+}
+.card-feed-link {
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #3c78c3;
+    cursor: pointer;
+}
+.card-feed-date, .card-feed-link {
+    display: table-cell;
+    vertical-align: middle;
 }
 @media screen and (min-width: 1001px){
 .facilities-sidebar {

@@ -2,20 +2,19 @@
 <?php include('layout/sidebar.php') ?>
 <div class="content">
 
-  <div class="card h-card h-p-30">
+  <main class="main-with-sidebar">
+    <div class="card h-card h-p-30">
     <img src="image/smartphone-release.png" width="100%">
   </div>
-
   <div class="space"></div>
-
   <div class="card h-card">
     <div class="card-header h-border-buttom">
       <div class="d-flex justify-content-between">
-        <div class="col-md-4">
+        <div class="col-md-3">
           <span><strong>おすすめの求職者</strong></span>
         </div>
-        <div class="col-md-6">
-          <span class="text-center">気になる求職者にスカウトを送って、応募を促しましょう</span>
+        <div class="col-md-7">
+          <span class="text-center card-small-short">気になる求職者にスカウトを送って、応募を促しましょう</span>
         </div>
 
         <div class="col-md-2">
@@ -133,47 +132,143 @@
 <div class="space"></div>
 <section class="card-list">
   <div class="row h-no-margin">
-    <div class="clearfix">
-      <div class="card-list-left">
-        <span class="u-fw-bold pull-left">お知らせ</span>
+    <div class="card-wd-100">
+      <div class="card-wd-80 pull-left card-list-left">
+        <span class="card-medium-short card-fw-bold">お知らせ</span>
       </div>
-      <div class="card-list-right pull-right">
-        <div class="c-feed">
-          <ol class="c-feed__inner">
-            <li class="c-feed__item">
-              <div class="c-feed__item-inner">
-                <div class="c-feed__date">2018/09/11</div>
-                <a class="c-link c-feed__link">「公認心理師」の取り扱い開始についてのお知らせ</a>
+      <div class="card-wd-680 pull-right card-list-right">
+        <div class="card-feed">
+          <ol class="card-feed-inner">
+            <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2018/09/11</div>
+                <a class="card-link card-feed-link">「公認心理師」の取り扱い開始についてのお知らせ</a>
               </div>
             </li>
-            <li class="c-feed__item">
-              <div class="c-feed__item-inner">
-                <div class="c-feed__date">2018/09/03</div>
-                <a class="c-link c-feed__link">スマートフォン向け機能の提供開始のお知らせ</a>
+            <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2018/09/03</div>
+                <a class="card-link card-feed-link">スマートフォン向け機能の提供開始のお知らせ</a>
               </div>
             </li>
-            <li class="c-feed__item">
-              <div class="c-feed__item-inner">
-                <div class="c-feed__date">2018/07/01</div>
-                <a class="c-link c-feed__link">ジョブメドレー 利用規約改定のお知らせ</a>
+            <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2018/07/01</div>
+                <a class="card-link card-feed-link">ジョブメドレー 利用規約改定のお知らせ</a>
               </div>
             </li>
-            <li class="c-feed__item">
-              <div class="c-feed__item-inner">
-                <div class="c-feed__date">2018/06/27</div>
-                <a class="c-link c-feed__link">新機能「職場の環境」リリースのお知らせ</a>
+            <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2018/06/27</div>
+                <a class="card-link card-feed-link">新機能「職場の環境」リリースのお知らせ</a>
               </div>
             </li>
-            <li class="c-feed__item">
-              <div class="c-feed__item-inner">
-                <div class="c-feed__date">2018/06/25</div>
-                <a class="c-link c-feed__link">※解消済み※求職者検索画面の不具合について</a>
+            <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2018/06/25</div>
+                <a class="card-link card-feed-link">※解消済み※求職者検索画面の不具合について</a>
               </div>
             </li>
-            <li class="c-feed__item">
-              <div class="c-feed__item-inner">
-                <div class="c-feed__date">2016/10/04</div>
-                <a class="c-link c-feed__link">取り扱い職種の追加と職種追加に伴う採用単価表更新のお知らせ</a>
+            <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2016/10/04</div>
+                <a class="card-link card-feed-link">取り扱い職種の追加と職種追加に伴う採用単価表更新のお知らせ</a>
+              </div>
+            </li>
+             <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2018/07/01</div>
+                <a class="card-link card-feed-link">ジョブメドレー 利用規約改定のお知らせ</a>
+              </div>
+            </li>
+            <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2016/10/04</div>
+                <a class="card-link card-feed-link">取り扱い職種の追加と職種追加に伴う採用単価表更新のお知らせ</a>
+              </div>
+            </li>
+            <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2018/07/01</div>
+                <a class="card-link card-feed-link">ジョブメドレー 利用規約改定のお知らせ</a>
+              </div>
+            </li>
+            <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2016/10/04</div>
+                <a class="card-link card-feed-link">取り扱い職種の追加と職種追加に伴う採用単価表更新のお知らせ</a>
+              </div>
+            </li>
+             <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2018/07/01</div>
+                <a class="card-link card-feed-link">ジョブメドレー 利用規約改定のお知らせ</a>
+              </div>
+            </li>
+            <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2018/07/01</div>
+                <a class="card-link card-feed-link">ジョブメドレー 利用規約改定のお知らせ</a>
+              </div>
+            </li>
+            <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2016/10/04</div>
+                <a class="card-link card-feed-link">取り扱い職種の追加と職種追加に伴う採用単価表更新のお知らせ</a>
+              </div>
+            </li>
+             <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2018/07/01</div>
+                <a class="card-link card-feed-link">ジョブメドレー 利用規約改定のお知らせ</a>
+              </div>
+            </li>
+            <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2016/10/04</div>
+                <a class="card-link card-feed-link">取り扱い職種の追加と職種追加に伴う採用単価表更新のお知らせ</a>
+              </div>
+            </li>
+             <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2018/07/01</div>
+                <a class="card-link card-feed-link">ジョブメドレー 利用規約改定のお知らせ</a>
+              </div>
+            </li>
+            <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2016/10/04</div>
+                <a class="card-link card-feed-link">取り扱い職種の追加と職種追加に伴う採用単価表更新のお知らせ</a>
+              </div>
+            </li>
+            <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2018/07/01</div>
+                <a class="card-link card-feed-link">ジョブメドレー 利用規約改定のお知らせ</a>
+              </div>
+            </li>
+            <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2016/10/04</div>
+                <a class="card-link card-feed-link">取り扱い職種の追加と職種追加に伴う採用単価表更新のお知らせ</a>
+              </div>
+            </li>
+             <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2018/07/01</div>
+                <a class="card-link card-feed-link">ジョブメドレー 利用規約改定のお知らせ</a>
+              </div>
+            </li>
+            <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2016/10/04</div>
+                <a class="card-link card-feed-link">取り扱い職種の追加と職種追加に伴う採用単価表更新のお知らせ</a>
+              </div>
+            </li>
+            <li class="card-feed-item">
+              <div class="card-feed-item-inner">
+                <div class="card-feed-date">2018/07/01</div>
+                <a class="card-link card-feed-link">ジョブメドレー 利用規約改定のお知らせ</a>
               </div>
             </li>
           </ol>
@@ -182,6 +277,59 @@
     </div>
   </div>
 </section><!-- .card-list -->
+<section class="card-list space-pd-top-md">
+  <div class="row h-no-margin">
+    <div class="card-wd-100">
+      <div class="card-wd-80 pull-left card-list-left">
+        <span class="card-medium-short card-fw-bold">お知らせ</span>
+      </div>
+      <div class="card-wd-680 pull-right card-list-right">
+        <div class="space-pl-40">
+          <a class="card-inline-tbl" target="_blank" href="https://static.job-medley.com/files/price_list.pdf">
+            <div class="card-icon-txt card-link card-medium-short">
+              <div class="card-icon-txt-icon">
+                <div class="card-icon-txt-inner card-rotate-360">
+                  <span class="">
+                    <i class="fa fa-th-list" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="card-icon-txt">採用単価下限表はこちら</div>
+            </div>
+          </a>
+          <a class="card-inline-tbl space-pl-10" target="_blank" href="https://static.job-medley.com/files/price_list.pdf">
+            <div class="card-icon-txt card-link card-medium-short">
+              <div class="card-icon-txt-icon">
+                <div class="card-icon-txt-inner">
+                  <span class="">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="card-icon-txt">オプションプランのご案内はこちら</div>
+            </div>
+          </a>
+          <a class="card-inline-tbl space-pl-10" target="_blank" href="https://static.job-medley.com/files/price_list.pdf">
+            <div class="card-icon-txt card-link card-medium-short">
+              <div class="card-icon-txt-icon">
+                <div class="card-icon-txt-inner card-rotate-360">
+                  <span class="">
+                    <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="card-icon-txt">採用単価下限表はこちら</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="space"> </div>
+<div class="space"> </div>
+  </main>
 </div>
 
 <?php include('layout/footer.php') ?>
