@@ -565,7 +565,7 @@
                           </div>
                           <div class="space-pd-top-sm card-small-short">※説明文はこの写真を使用しているほかの施設・求人にも反映されます</div>
                           <div class="space-pd-top-md">
-                            <button type="button" class="blue-btn card-wd-100 card-fw-bold">写真に説明文を追加する</button>
+                            <button type="button" class="blue-btn card-wd-100 card-fw-bold space-pd-sm">写真に説明文を追加する</button>
                           </div>
                         </div>
                         </form>

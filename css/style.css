@@ -1120,7 +1120,7 @@ iframe
   padding-top: 5px;
 }
 .space-pd-sm{
-  padding:15px 0px;
+  padding:15px 0px !important;
 }
 .space-pd-xs{
   padding: 5px 0px
