@@ -20,7 +20,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="image-manager.php">
             <i class="fa fa-picture-o fa-lg" aria-hidden="true"></i> 写真管理
           </a>
         </li>

@@ -201,12 +201,16 @@
                               
                             </figure>
                           </div>
+                          <div class="space-pd-top-sm card-alert">
+                              <div class="card-xs-small-short">推奨サイズ以上の写真を登録すると、よりきれいに表示することができます</div>
+                          </div>
                         </div><!-- .card-sort-list-item -->
                         <div class="card-sort-list-item">
                           <div>
                             <figure class="card-upload-image">
                               <div class="thumb">
                                 <img class="img-thumbnail" src="image/img03.jpg">
+                                <figcaption class="card-upload-caption">懇親会時の写真です。定期的にスタッフとの食事会などを行っています。</figcaption>
                                 <div class="card-overlay">  
                                   <div class="card-overlay-inner">
                                     <ul class="card-inline-list">
@@ -251,6 +255,7 @@
                             <figure class="card-upload-image">
                               <div class="thumb">
                                 <img class="img-thumbnail" src="image/img05.jpg" alt="Another alt text">
+                                <figcaption class="card-upload-caption">代表の猿井です。</figcaption>
                                 <div class="card-overlay">  
                                   <div class="card-overlay-inner">
                                     <ul class="card-inline-list">
@@ -262,9 +267,7 @@
                                     </ul>
                                   </div>
                                 </div>
-
                               </div>
-                              
                             </figure>
                           </div>
                         </div><!-- .card-sort-list-item -->
@@ -1680,7 +1683,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+      </div>
   </div><!-- .card -->
   <div class="space"></div>
   
