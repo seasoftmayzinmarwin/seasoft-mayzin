@@ -97,14 +97,14 @@
         <div class="row h-no-margin">
           <div class="p-2 e-flex-fill flex-fill h-border-right">
             <a class="card-block card-small-short text-center space-pd-20" href="">
-              <div class="card-fw-bold">未確認の応募</div>
-              <span class="card-fw-md-bold">0</span><span class="card-font-sm-grey grey-pd-sm">件</span>
+              <div class="card-fw-bold space-pd-btm-sm">未確認の応募</div>
+              <span class="card-fw-md-bold space-pd-top-sm">0</span><span class="card-font-sm-grey grey-pd-sm">件</span>
             </a>
           </div>
           <div class="p-2 e-flex-fill flex-fill">
            <a class="card-block card-small-short text-center space-pd-20" href="">
-            <div class="card-fw-bold">未読メッセージ</div>
-            <span class="card-fw-md-bold">0</span><span class="card-font-sm-grey grey-pd-sm">件</span>
+            <div class="card-fw-bold space-pd-btm-sm">未読メッセージ</div>
+            <span class="card-fw-md-bold space-pd-top-sm">0</span><span class="card-font-sm-grey grey-pd-sm">件</span>
           </a>
         </div>
       </div>
@@ -115,13 +115,13 @@
       <div class="row h-no-margin">
         <div class="p-2 e-flex-fill flex-fill h-border-right">
           <a class="card-block card-small-short text-center space-pd-20" href="">
-            <div class="card-fw-bold">募集中の施設</div>
-            <span class="card-fw-md-bold">1</span><span class="card-font-sm-grey grey-pd-sm">件</span>
+            <div class="card-fw-bold space-pd-btm-sm">募集中の施設</div>
+            <span class="card-fw-md-bold space-pd-top-sm">1</span><span class="card-font-sm-grey grey-pd-sm">件</span>
           </a>
         </div>
         <div class="p-2 e-flex-fill flex-fill">
           <a class="card-block card-small-short text-center space-pd-20" href="">
-            <div class="card-fw-bold">募集中の求人</div>
+            <div class="card-fw-bold space-pd-btm-sm">募集中の求人</div>
             <span class="card-fw-md-bold">7</span><span class="card-font-sm-grey grey-pd-sm">件</span>
           </a>
         </div>

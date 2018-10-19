@@ -181,6 +181,26 @@
             </div>
           </div>
         </div>
+        <div class="facilites-content-inner">
+          <div class="common-not-found cmn-not-found-fac">
+              <div class="common-not-found-inner">
+                <div class="space-pd-20 text-center">
+                  <span><i class="fa fa-search fa-4x" aria-hidden="true"></i></span>
+                   <p class="not-found-txt space-pd-top-md">施設を検索、または選択してください</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="facilites-content-inner">
+          <div class="common-not-found cmn-not-found-fac">
+              <div class="common-not-found-inner">
+                <div class="space-pd-20 text-center">
+                  <span><i class="fa fa-search fa-4x" aria-hidden="true"></i></span>
+                   <p class="not-found-txt space-pd-top-md">該当する施設・求人がありませんでした<br>条件を変更してお試しください</p>
+                </div>
+              </div>
+            </div>
+        </div>
       </div><!-- .facilities-content -->
   </main><!-- .facilites-main -->
 </div>
