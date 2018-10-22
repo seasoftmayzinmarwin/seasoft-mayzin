@@ -2356,7 +2356,15 @@ input[type="radio"]:default + label:after {
     padding: 3px 5px;
     white-space: pre-wrap;
 }
+.list-label-blue-right{
+    background-color: #cde2fa !important;
+}
+.list-label-yellow{
+    background-color: #ffdf80;
+    border: 2px solid #ffdf80 !important;
+}
 .list-label-circle {
+    display: inline-block;
     border: 2px solid #eceff1;
     border-radius: 11px;
     padding: 1px 8px;
@@ -2504,10 +2512,12 @@ input[type="radio"]:default + label:after {
 .card-display-none{
     display: none!important;
 }
-}
 .list-jobs-items{
-  list-style: none;
+  list-style: none !important;
   padding-left: 0px;
+}
+.list-jobs-items li{
+  list-style: none !important;
 }
 .list-gp-main-second{
 border-top: 1px solid #eceff1;
@@ -3131,6 +3141,13 @@ padding: 0 0 0 5px !important;
     background-color: #f5f5f5;
     border-radius: 4px;
     width: 100%;
+}
+/*---------selection-page----------*/
+.selection-sidebar{
+    width:200px !important;
+}
+.card-selection-inner{
+    padding: 20px 20px 20px 220px !important;
 }
 @media screen and (min-width: 1001px){
 .facilities-sidebar {
