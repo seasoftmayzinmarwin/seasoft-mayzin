@@ -3410,6 +3410,9 @@ padding: 0 0 0 5px !important;
     table-layout: fixed;
     word-break: break-word;
 }
+#display_advance{
+display: none;
+}
 @media screen and (min-width: 1001px){
 .facilities-sidebar {
     width: 270px;

@@ -2,6 +2,35 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+  //----- OPEN
+  $('[data-popup-open]').on('click', function(e) {
+    var targeted_popup_class = jQuery(this).attr('data-popup-open');
+    $('[data-popup="' + targeted_popup_class + '"]').fadeIn(350);
+
+    e.preventDefault();
+  });
+
+  //----- CLOSE
+  $('[data-popup-close]').on('click', function(e) {
+    var targeted_popup_class = jQuery(this).attr('data-popup-close');
+    $('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
+  });
+
+  $('#success-popup-close').on('click', function(e) {
+    e.preventDefault();
+    $('.popup').fadeOut(350);
+  });
+
+  $('#error-popup-close').on('click', function(e) {
+    e.preventDefault();
+    $('.popup').fadeOut(0);
+        $('.error-message').html("");
+  });
+  
+});
+</script>
 <script type="text/javascript" charset="utf-8" async defer>
  let modalId = $('#image-gallery');
 
