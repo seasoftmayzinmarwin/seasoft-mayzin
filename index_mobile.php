@@ -25,7 +25,7 @@
 						<li class="c-m-bordered-list__item">
 							<div class="c-m-box c-m-box--m c-m-box--bg-white">
 								<div class='c-m-box c-m-box--align-right'>
-									<a href="" title=""></a>
+									
 								</div>
 										<div class="c-m-box c-m-box--align-center"><div class="ds-o-flex ds-o-flex--col ds-o-flex--align-center ds-o-flex--s">
 											<div class="container">
@@ -248,36 +248,42 @@
 								<div class="c-m-box c-m-box--bg-white">
 									<ul class="c-m-bordered-list">
 										<li class='c-m-bordered-list__item'>
-											<div class="c-m-box c-m-box--vertical-xl c-m-box--horizontal-m">
-												<div class="">
-													<div class="ds-o-flex__item"><h1 class="c-m-heading c-m-heading--l">お知らせ</h1></div>
-													<div class="ds-o-flex__item"><a href="#" class="c-m-text-link c-m-text-link--small">もっと見る</a></div>
+												<div class="c-m-box c-m-box--vertical-xl c-m-box--horizontal-m">
+												<div class="ds-o-flex--justify-space-between m-pd-bm">
+													<div class="ds-o-flex__item pull-left"><h1 class="c-m-heading c-m-heading--l">お知らせ</h1></div>
+													<div class="ds-o-flex__item pull-right"><a href="announcements_mobile.php" class="c-m-text-link c-m-text-link--small">もっと見る</a></div>
 												</div>
 											</div>
 										</li>
 										<li class='c-m-bordered-list__item'>
-											<div class="c-m-box c-m-box--vertical-xl c-m-box--horizontal-m">
-												<div class="">
-													<div class="ds-o-flex__item"><h1 class="c-m-heading c-m-heading--l">採用単価表変更のお知らせ</h1></div>
-													<div class="ds-o-flex__item"><a href="#" class="c-m-text-link c-m-text-link--small"><span class="c-m-text c-m-text--grey c-m-text--bold c-m-text--helvetica c-m-text--s-short">2018/11/20 00:11</span></a></div>
+											<a class="un-link m-display-block" href="" title="">
+												<div class="c-m-box c-m-box--vertical-xl c-m-box--horizontal-m">
+													<div class="">
+														<div class="ds-o-flex__item"><h1 class="c-m-heading c-m-heading--l">採用単価表変更のお知らせ</h1></div>
+														<div class="ds-o-flex__item"><span class="c-m-text c-m-text--grey m-fw-bold c-m-text--helvetica c-m-text--s-short">2018/11/20 00:11</span></div>
+													</div>
 												</div>
-											</div>
+											</a>
 										</li>
 										<li class='c-m-bordered-list__item'>
-											<div class="c-m-box c-m-box--vertical-xl c-m-box--horizontal-m">
+											<a class="un-link m-display-block" href="" title="">
+												<div class="c-m-box c-m-box--vertical-xl c-m-box--horizontal-m">
 												<div class="">
 													<div class="ds-o-flex__item"><h1 class="c-m-heading c-m-heading--l">採用単価表変更のお知らせ</h1></div>
-													<div class="ds-o-flex__item"><a href="#" class="c-m-text-link c-m-text-link--small"><span class="c-m-text c-m-text--grey c-m-text--bold c-m-text--helvetica c-m-text--s-short">2018/11/20 00:11</span></a></div>
+													<div class="ds-o-flex__item"><span class="c-m-text c-m-text--grey m-fw-bold c-m-text--helvetica c-m-text--s-short">2018/11/20 00:11</span></div>
 												</div>
 											</div>
+											</a>
 										</li>
-										<li class='c-m-bordered-list__item'>
-											<div class="c-m-box c-m-box--vertical-xl c-m-box--horizontal-m">
+										<li class="c-m-bordered-list__item">
+											<a class="un-link m-display-block" href="" title="">
+												<div class="c-m-box c-m-box--vertical-xl c-m-box--horizontal-m">
 												<div class="">
 													<div class="ds-o-flex__item"><h1 class="c-m-heading c-m-heading--l">採用単価表変更のお知らせ</h1></div>
-													<div class="ds-o-flex__item"><a href="#" class="c-m-text-link c-m-text-link--small"><span class="c-m-text c-m-text--grey c-m-text--bold c-m-text--helvetica c-m-text--s-short">2018/11/20 00:11</span></a></div>
+													<div class="ds-o-flex__item"><span class="c-m-text c-m-text--grey m-fw-bold c-m-text--helvetica c-m-text--s-short">2018/11/20 00:11</span></div>
 												</div>
 											</div>
+											</a>
 										</li>
 									</ul>
 								</div>

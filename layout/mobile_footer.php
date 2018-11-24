@@ -1,3 +1,4 @@
+
 <section class="o-m-page__foot">
 	<footer class="c-m-footer">
 		<div class="c-m-footer__item">
@@ -73,6 +74,7 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 </body>
 </html>

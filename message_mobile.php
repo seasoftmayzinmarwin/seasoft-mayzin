@@ -21,7 +21,7 @@
 		</div>
 		<div class="message-block">
 			<div class="">
-				<nav class="card-wd-360 space-mt-auto">
+				<nav class="">
               	 <div class="card-switcher">
                   <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
                       <a class="card-switcher-item nav-item active" id="m1-tab" data-toggle="tab" href="#message1" role="tab" aria-controls="message1" aria-selected="true">すべて</a>
@@ -29,13 +29,13 @@
                       <a class="card-switcher-item nav-item" id="m3-tab" data-toggle="tab" href="#message3" role="tab" aria-controls="message3" aria-selected="false">未使用の写真</a>
                    </div>
               </div>
-          </nav>
+          	</nav>
 			</div>
 			<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
 				<div class="tab-pane fade show active" id="message1" role="tabpanel" aria-labelledby="m1-tab">
 					<ul class="c-m-bordered-list">
 						<li class="c-m-bordered-list__item">
-							<a href="#" class="un-link">
+							<a href="#" class="un-link" data-toggle="modal" data-target="#message-popup">
 								<div class="c-m-message-summary">
 									<div class="c-m-box">
 										<div class="m-message-summary__inner">
@@ -378,4 +378,5 @@
 		</div><!-- .message-block -->
 
 	</div>
+<?php include('message_popup_mobile.php') ?>
 <?php include('layout/mobile_footer.php') ?>

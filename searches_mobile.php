@@ -109,10 +109,13 @@
 																	</div>
 																</dl>
 															</div><!-- .panel-body -->
-															<div class="c-m-box c-m-box--vertical-m m-border-top m-pd-top">
+															
+														</div><!-- .panel-primary -->
+														<div class="c-m-box c-m-box--vertical-m m-border-top m-pd-top">
 																<div class="row">
 																	<div class="col">
-																		<button type="button" class="c-m-button">プロフィール</button>
+																		<a href="#" class="c-m-button" data-toggle="modal" data-target="#profile-popup">スカウト</a>
+																		
 																	</div>
 																	<div class="col">
 																		<a href="#" class="c-m-button c-m-button--primary">スカウト</a>
@@ -120,7 +123,6 @@
 																</div>
 															</div>
 															<div class="m-space-md"></div>
-														</div><!-- .panel-primary -->
 													</div>
 												</div>
 											</li>
@@ -345,4 +347,5 @@
 		</div>
 
 	</div>
+<?php include('profile_popup_mobile.php') ?>
 <?php include('layout/mobile_footer.php') ?>
