@@ -1,43 +1,10 @@
 <section class="o-m-page__foot">
 	<footer class="c-m-footer">
-		<div class="c-m-footer__item">
-			<div class="container">
-			<div class="row">
-				<div class="col">
-					<a href="" class="c-m-box-link" title="">
-						<div class="text-center">
-							<span class="c-m-text c-m-text--white c-m-text--bold c-m-text--s-short">ページ上に戻る</span>
-						</div>
-					</a>
-					
-				</div>
-			</div>
-		</div>
-		</div>
-		<div class="c-m-box c-m-box--horizontal-m">
-			<nav class="c-m-footer__nav">
-				<div class="c-m-footer__nav-item">
-					<div class="c-m-footer__nav-item"><a href="" class="c-m-text-link c-m-text-link--white c-m-text-link--small">求職者検索</a></div>
-				</div>
-				<div class="c-m-footer__nav-item">
-					<div class="c-m-footer__nav-item"><a href="" class="c-m-text-link c-m-text-link--white c-m-text-link--small">メッセージ</a></div>
-				</div>
-				<div class="c-m-footer__nav-item">
-					<div class="c-m-footer__nav-item"><a href="" class="c-m-text-link c-m-text-link--white c-m-text-link--small">お知らせ</a></div>
-				</div>
-				<div class="c-m-footer__nav-item">
-					<div class="c-m-footer__nav-item"><a href="" class="c-m-text-link c-m-text-link--white c-m-text-link--small">ご利用ガイド</a></div>
-				</div>
-			</nav>
-		</div>
 		<div class="c-m-footer__copy-right">
 			<div class="container">
 				<div class="row">
 					<div class="col">
-						<span class="c-m-text c-m-text--white c-m-text--helvetica c-m-text--s-short">©2009 MEDLEY,INC.</span>
-					</div>
-					<div class="col">
-						<a href="" class="pull-right c-m-text-link c-m-text-link--light-blue c-m-text-link--small">PC版を表示</a>
+						<p class="c-m-text text-center c-m-text--white c-m-text--helvetica c-m-text--s-short">©2009 MEDLEY,INC.</p>
 					</div>
 				</div>
 			</div>
