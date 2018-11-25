@@ -35,7 +35,17 @@
 							<li class="c-m-bordered-list__item m-pd-top-md">
 								<div class="">
 									<div class="ds-o-flex__item"><h1 class="m-fw-bold m-fs-sm">まだご利用を開始されていない医院・事業所様はこちら</h1></div>
+									<div class="m-pd-top-sm">
+										<a href="#" class="c-m-button c-m-button--blue">求人掲載のお申し込み</a>
+									</div>
 								</div>
+								<div class="m-pd-top-md">
+									<div class="ds-o-flex__item"><h1 class="m-fw-bold m-fs-sm">お仕事をお探しの方はこちら</h1></div>
+									<div class="m-pd-top-sm">
+										<a href="#" class="c-m-button c-m-button--blue">求職者ログイン</a>
+									</div>
+								</div>
+								<div class="m-space-sm"></div>
 							</li>
 						</ul>
 					</div>

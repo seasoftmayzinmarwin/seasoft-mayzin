@@ -13,7 +13,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<div class="m-pd-top">
+					<div class="m-pd-top-bm-md">
 						<i class="fa fa-home" aria-hidden="true"></i>
 					</div>
 					
