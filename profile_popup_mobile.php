@@ -162,9 +162,6 @@
                       </dl>
                     </li>
                   </ul>
-                  <div class="card-msg-btn card-wd-230 space-mt-auto">
-                    <button type="submit" class="card-fw-bold tbl-btn-blue">この内容でメッセージを送る</button>
-                  </div>
                 </form>
                 </div><!-- .card-msg-view-inner -->
                

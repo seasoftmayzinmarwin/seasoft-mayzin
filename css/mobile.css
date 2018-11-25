@@ -305,6 +305,9 @@
 .m-pd-top-md{
     padding-top: 20px;
 }
+.m-pd-l {
+    padding-left: 10px;
+}
 .m-pd-bm{
     padding-bottom: 10px;
 }
@@ -442,6 +445,9 @@
 }
 .m-fw-bold{
     font-weight: bold;
+}
+.m-fw-normal{
+    font-weight: normal;
 }
 .m-fs-sm{
     font-size: 12px;
@@ -1020,6 +1026,9 @@ input[type="radio"]:default + label:after {
   display: inline-table;
   vertical-align: middle;
 }
+.c-m-text--alert{
+    color: #cd4b64;
+}
 /*-------login_page---------*/
 .m-text-field {
     -webkit-box-shadow: 0 0 1px 0 rgba(0,0,0,.1) inset, 0 1px 5px 0 rgba(0,0,0,.1) inset;
@@ -1033,6 +1042,38 @@ input[type="radio"]:default + label:after {
     line-height: normal;
     padding: 16px;
     width: 100%;
+}
+.c-m-button--disabled, .c-m-button--finished {
+    -webkit-box-shadow: none;
+    background-color: hsla(0,0%,90.2%,.25);
+    border: 1px solid rgba(34,34,34,.08);
+    box-shadow: none;
+    color: #455a64;
+}
+.c-m-button--disabled:hover{
+    text-decoration: none;
+    color: #455a64;
+}
+.c-m-selectbox__select--disabled {
+    -webkit-box-shadow: none;
+    background-color: hsla(0,0%,90.2%,.25);
+    border: 1px solid rgba(34,34,34,.08);
+    box-shadow: none;
+    color: hsla(0,0%,40%,.5);
+}
+.c-m-textarea--disabled {
+    -webkit-box-shadow: none;
+    background-color: hsla(0,0%,90.2%,.25);
+    border: 1px solid rgba(34,34,34,.08);
+    box-shadow: none;
+}
+.c-m-box-link {
+    color: #222;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px;
+    cursor: pointer;
 }
 }
 @media screen and (max-height: 450px) {

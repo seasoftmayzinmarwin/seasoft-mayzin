@@ -118,7 +118,7 @@
 																		
 																	</div>
 																	<div class="col">
-																		<a href="#" class="c-m-button c-m-button--primary">スカウト</a>
+																		<a href="#" class="c-m-button c-m-button--primary" data-toggle="modal" data-target="#scout-popup">スカウト</a>
 																	</div>
 																</div>
 															</div>
@@ -184,7 +184,7 @@
 																		<button type="button" class="c-m-button">プロフィール</button>
 																	</div>
 																	<div class="col">
-																		<a href="#" class="c-m-button c-m-button--primary">スカウト</a>
+																		<a href="#" class="c-m-button c-m-button--primary" >スカウト</a>
 																	</div>
 																</div>
 															</div>
@@ -348,4 +348,5 @@
 
 	</div>
 <?php include('profile_popup_mobile.php') ?>
+<?php include('scout_popup_mobile.php') ?>
 <?php include('layout/mobile_footer.php') ?>
