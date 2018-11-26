@@ -1229,6 +1229,13 @@ input[type="radio"]:default + label:after {
     border:2px solid #fff;
     border-radius: 50px;
 }
+.c-m-text-link--red {
+    color: #cd4b64;
+}
+.c-m-text-link--disabled {
+    opacity: .3;
+    pointer-events: none;
+}
 }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}

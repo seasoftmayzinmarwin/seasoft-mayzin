@@ -12,7 +12,7 @@
 					</div>
 					<div class="col">
 						<div class="search-header-icon pull-right m-pd-top-md">
-							<a href="" title=""><i class="fa fa-search" aria-hidden="true"></i></a>
+							<a href="" title="" data-toggle="modal" data-target="#searchicon-popup" title=""><i class="fa fa-search" aria-hidden="true"></i></a>
 						</div>
 					</div>
 				</div>
@@ -380,4 +380,5 @@
 	</div>
 <?php include('profile_popup_mobile.php') ?>
 <?php include('scout_popup_mobile.php') ?>
+<?php include('searchicon_popup_mobile.php') ?>
 <?php include('layout/mobile_footer.php') ?>
