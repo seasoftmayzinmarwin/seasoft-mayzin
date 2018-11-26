@@ -1236,6 +1236,12 @@ input[type="radio"]:default + label:after {
     opacity: .3;
     pointer-events: none;
 }
+.m-wd-150{
+    width:150px;
+}
+.m-auto{
+    margin:0 auto;
+}
 }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}

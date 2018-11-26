@@ -97,7 +97,7 @@
                     </div>
                     <div class="m-space-md"></div>
                     <div class="ds-o-flex-item">
-                        <a href="#" class="c-m-button c-m-button--semicircle text-center">＋ 他の職種を追加</a>
+                        <a href="#" class="c-m-button c-m-button--semicircle text-center m-wd-150 m-auto">＋ 他の職種を追加</a>
                     </div>
                   </div>
                   <div class="m-space-md"></div>
@@ -241,7 +241,7 @@
                     </div>
                     <div class="m-space-md"></div>
                     <div class="ds-o-flex-item">
-                        <a href="#" class="c-m-button c-m-button--semicircle text-center">＋ エリアを追加</a>
+                        <a href="#" class="c-m-button c-m-button--semicircle text-center m-wd-150 m-auto">＋ エリアを追加</a>
 
                     </div>
                   </div>
