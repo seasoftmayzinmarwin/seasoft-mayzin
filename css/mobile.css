@@ -1222,6 +1222,13 @@ input[type="radio"]:default + label:after {
     margin-left: 0;
     margin-right: 10px;
 }
+.icon-bdr{
+    display: block;
+    width:40px;
+    height:40px;
+    border:2px solid #fff;
+    border-radius: 50px;
+}
 }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}

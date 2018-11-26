@@ -14,23 +14,23 @@
 			<div class="row">
 				<div class="col">
 					<div class="m-pd-top">
-						<i class="fa fa-home" aria-hidden="true"></i>
+						<a href="index_mobile.php" title=""><i class="fa fa-home fa-2x" aria-hidden="true"></i></a>
 					</div>
 					
 				</div>
 				<div class="col">
 					<div class="row">
-						<div class="col">
-							<div class="m-pd-top">
-								<a href="" title=""><i class="fa fa-user-o" aria-hidden="true"></i></a>	
+						<div class="col m-pd-top-bm">
+							<div class="">
+								<a href="searches_mobile.php" title=""><span class="icon-bdr"><i class="fa fa-user-o m-pd-l m-pd-top" aria-hidden="true"></i></span></a>	
 							</div>
 						</div>
-						<div class="col">
-							<div class="m-pd-top">
-								<a href="" title=""><i class="fa fa-commenting" aria-hidden="true"></i></a>
+						<div class="col m-pd-top-bm">
+							<div class="">
+								<a href="message_mobile.php" title=""><span class="icon-bdr"><i class="fa fa-commenting m-pd-l m-pd-top" aria-hidden="true"></i></span></a>
 							</div>
 						</div>
-						<div class="col">
+						<div class="col m-pd-top-sm">
 							<span style="font-size:30px;cursor:pointer" onclick="openNav()" class="mobile-btn">&#9776;</span>
 
 						<div id="mySidenav" class="sidenav">

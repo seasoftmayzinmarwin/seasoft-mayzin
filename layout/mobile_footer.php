@@ -17,13 +17,13 @@
 		<div class="c-m-box c-m-box--horizontal-m">
 			<nav class="c-m-footer__nav">
 				<div class="c-m-footer__nav-item">
-					<div class="c-m-footer__nav-item"><a href="" class="c-m-text-link c-m-text-link--white c-m-text-link--small">求職者検索</a></div>
+					<div class="c-m-footer__nav-item"><a href="searches_mobile.php" class="c-m-text-link c-m-text-link--white c-m-text-link--small">求職者検索</a></div>
 				</div>
 				<div class="c-m-footer__nav-item">
-					<div class="c-m-footer__nav-item"><a href="" class="c-m-text-link c-m-text-link--white c-m-text-link--small">メッセージ</a></div>
+					<div class="c-m-footer__nav-item"><a href="message_mobile.php" class="c-m-text-link c-m-text-link--white c-m-text-link--small">メッセージ</a></div>
 				</div>
 				<div class="c-m-footer__nav-item">
-					<div class="c-m-footer__nav-item"><a href="" class="c-m-text-link c-m-text-link--white c-m-text-link--small">お知らせ</a></div>
+					<div class="c-m-footer__nav-item"><a href="announcements_mobile.php" class="c-m-text-link c-m-text-link--white c-m-text-link--small">お知らせ</a></div>
 				</div>
 				<div class="c-m-footer__nav-item">
 					<div class="c-m-footer__nav-item"><a href="" class="c-m-text-link c-m-text-link--white c-m-text-link--small">ご利用ガイド</a></div>
