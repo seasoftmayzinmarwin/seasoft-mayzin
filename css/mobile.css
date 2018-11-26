@@ -380,7 +380,7 @@
     display: -ms-flexbox;
     display: flex;
     position: relative;
-    width: calc(100vw - 48px);
+    /*width: calc(100vw - 48px);*/
 }
 .m-member-card__body{
     -ms-transform-origin: top right;

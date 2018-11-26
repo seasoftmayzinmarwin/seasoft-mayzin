@@ -4,7 +4,7 @@
 			<div class="container">
 			<div class="row">
 				<div class="col">
-					<a href="" class="c-m-box-link" title="">
+					<a href="" class="c-m-box-link" title="" id="back2Top">
 						<div class="text-center">
 							<i class="fa fa-long-arrow-up m-fa-white" aria-hidden="true"></i><br>
 							<span class="c-m-text c-m-text--white c-m-text--bold c-m-text--s-short">ページ上に戻る</span>
@@ -49,6 +49,27 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+	/*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
+ /*Scroll to top when arrow up clicked END*/
+
+</script>
 <script type="text/javascript">
 	$(document).on('click', '.panel-heading span.clickable', function(e){
     var $this = $(this);
