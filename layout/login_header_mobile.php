@@ -14,7 +14,7 @@
 			<div class="row">
 				<div class="col">
 					<div class="m-pd-top-bm-md">
-						<i class="fa fa-home" aria-hidden="true"></i>
+						<a href="index_mobile.php" title=""><i class="fa fa-home fa-2x" aria-hidden="true"></i></a>
 					</div>
 					
 				</div>
