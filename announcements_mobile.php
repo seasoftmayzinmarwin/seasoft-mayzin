@@ -20,7 +20,7 @@
 				<ul class="c-m-bordered-list">
 					</li>
 					<li class='c-m-bordered-list__item'>
-						<a class="un-link m-display-block" href="" title="">
+						<a class="un-link m-display-block" href="" data-toggle="modal" data-target="#announcement-popup" title="">
 							<div class="c-m-box c-m-box--vertical-xl c-m-box--horizontal-m">
 								<div class="">
 									<div class="ds-o-flex__item"><h1 class="c-m-heading c-m-heading--l">採用単価表変更のお知らせ</h1></div>
@@ -93,5 +93,5 @@
 				</div>
 		</div>				
 	</div>
-
+<?php include('announcements_popup_mobile.php') ?>
 <?php include('layout/mobile_footer.php') ?>
