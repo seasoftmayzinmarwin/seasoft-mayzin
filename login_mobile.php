@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col">
 					<div class="c-m-box--bg-white">
-						<div class="m-pd-top-md ds-o-flex__item"><h1 class="c-m-heading c-m-heading--xl">採用管理画面ログイン</h1></div>
+						<div class="m-pd-top-md ds-o-flex__item"><h1 class="c-m-heading">採用管理画面ログイン</h1></div>
 						<ul class="c-m-bordered-list">
 							<li class="c-m-bordered-list__item">
 								<form action="" method="" accept-charset="utf-8">
