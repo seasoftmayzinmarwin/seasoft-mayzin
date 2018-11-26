@@ -29,25 +29,24 @@
 							<div class="panel panel-primary" href="#demo" data-toggle="collapse">
 						<div class="panel-heading">
 							<div class="c-m-box c-m-box--m">
-								
-									<ul class="c-m-bordered-list">
-										<li class="c-m-bordered-list__item">
-												<div class="col pull-left"><div class="ds-o-flex__item"><h1 class="c-m-heading c-m-heading--l c-m-heading--grey">検索条件メニュー</h1></div></div>
-												<span class="col pull-right c-m-drop-down-menu__icon clickable">
-														<i class="fa fa-chevron-down" aria-hidden="true"></i>
-												</span>
-										</li>
-										<li class="c-m-bordered-list__item bdr-none">
-											<div class="collapse" id="demo">
-											<a href="#" class="c-m-box-link"><div class="ds-o-flex ds-o-flex--align-center"><div class="ds-o-flex__item">掲載中の求人にマッチ</div><div class="ds-o-flex__item ds-o-flex__item--right"><div class="c-m-badge">1</div></div></div></a>
-											</div>
-										</li>
-										<li class="c-m-bordered-list__item bdr-none">
-											<div class="collapse" id="demo">
-											<a href="#" class="c-m-box-link"><div class="ds-o-flex ds-o-flex--align-center"><div class="ds-o-flex__item">掲載中の求人にマッチ</div><div class="ds-o-flex__item ds-o-flex__item--right"><div class="c-m-badge">1</div></div></div></a>
-											</div>
-										</li>
-									</ul>
+								<ul class="c-m-bordered-list">
+									<li class="c-m-bordered-list__item">
+											<div class="col pull-left"><div class="ds-o-flex__item"><h1 class="c-m-heading c-m-heading--l c-m-heading--grey">検索条件メニュー</h1></div></div>
+											<span class="col pull-right c-m-drop-down-menu__icon clickable">
+													<i class="fa fa-chevron-down" aria-hidden="true"></i>
+											</span>
+									</li>
+									<li class="c-m-bordered-list__item bdr-none">
+										<div class="collapse" id="demo">
+										<a href="#" class="c-m-box-link"><div class="ds-o-flex ds-o-flex--align-center"><div class="ds-o-flex__item">掲載中の求人にマッチ</div><div class="ds-o-flex__item ds-o-flex__item--right"><div class="c-m-badge">1</div></div></div></a>
+										</div>
+									</li>
+									<li class="c-m-bordered-list__item bdr-none">
+										<div class="collapse" id="demo">
+										<a href="#" class="c-m-box-link"><div class="ds-o-flex ds-o-flex--align-center"><div class="ds-o-flex__item">掲載中の求人にマッチ</div><div class="ds-o-flex__item ds-o-flex__item--right"><div class="c-m-badge">1</div></div></div></a>
+										</div>
+									</li>
+								</ul>
 								</div>
 							</div>
 						</div>
@@ -64,9 +63,23 @@
 		<div class="m-space-md"></div>
 		<div class="">
 			<div class="container">
-				<div class="row ">
+				<div class="row">
+					<div class="col">
+						<h1 class="c-m-heading c-m-heading--l m-pd-top-sm">251304<span>件</span></h1>
+					</div>
+					<div class="col">
+						<a href="#" class="c-m-button c-m-button--semicircle">求職者を複数選択</a>
+					</div>
+				</div>
+				<div class="row m-pd-top">
 					<div class="col">
 						<div class="m-member-card">
+							<div class="grid-checkbox">
+							  	<label class="grid-checkbox-label">
+							    <input value="0" name="" class="grid-checkbox-input" type="checkbox">
+							    <span class="checkmark"></span>
+							  	</label>
+							</div>
 							<div class="m-member-card__body">
 								<div class="m-panel m-panel--border m-panel--grey">
 									<div class="c-m-box c-m-box--horizontal-m">
@@ -136,6 +149,12 @@
 				<div class="row m-pd-top">
 					<div class="col">
 						<div class="m-member-card">
+							<div class="grid-checkbox">
+							  	<label class="grid-checkbox-label">
+							    <input value="0" name="" class="grid-checkbox-input" type="checkbox">
+							    <span class="checkmark"></span>
+							  	</label>
+							</div>
 							<div class="m-member-card__body">
 								<div class="m-panel m-panel--border m-panel--grey">
 									<div class="c-m-box c-m-box--horizontal-m">
@@ -203,6 +222,12 @@
 				<div class="row m-pd-top">
 					<div class="col">
 						<div class="m-member-card">
+							<div class="grid-checkbox">
+							  	<label class="grid-checkbox-label">
+							    <input value="0" name="" class="grid-checkbox-input" type="checkbox">
+							    <span class="checkmark"></span>
+							  	</label>
+							</div>
 							<div class="m-member-card__body">
 								<div class="m-panel m-panel--border m-panel--grey">
 									<div class="c-m-box c-m-box--horizontal-m">
@@ -270,6 +295,12 @@
 				<div class="row m-pd-top">
 					<div class="col">
 						<div class="m-member-card">
+							<div class="grid-checkbox">
+							  	<label class="grid-checkbox-label">
+							    <input value="0" name="" class="grid-checkbox-input" type="checkbox">
+							    <span class="checkmark"></span>
+							  	</label>
+							</div>
 							<div class="m-member-card__body">
 								<div class="m-panel m-panel--border m-panel--grey">
 									<div class="c-m-box c-m-box--horizontal-m">
